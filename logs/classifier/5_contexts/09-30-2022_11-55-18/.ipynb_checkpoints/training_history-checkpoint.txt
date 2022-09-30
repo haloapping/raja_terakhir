@@ -1,0 +1,48 @@
+HYPERPARAMETERS
+------------------------------------------------------------
+context_size: 5
+input_size: 64
+batch_size: 32
+num_hidden_layer: 1
+hidden_size: 128
+output_size: 24
+shuffle: True
+lr: 0.005
+batch_first: False
+bidirectional: True
+init_wb_with_kaiming_normal: True
+n_epoch: 20
+patience: 100
+device: cpu
+
+TRAINING PROGRESS
+------------------------------------------------------------
+EPOCH-1
+Batch-50: CrossEntropyLoss=3.0745 | F1Score=0.3341
+Batch-100: CrossEntropyLoss=3.0599 | F1Score=0.3398
+Batch-150: CrossEntropyLoss=3.0672 | F1Score=0.3472
+Batch-200: CrossEntropyLoss=3.0542 | F1Score=0.3531
+Batch-226: CrossEntropyLoss=3.0488 | F1Score=0.3542
+Batch-26: CrossEntropyLoss=3.0875 | F1Score=0.3568
+
+Training   : Mean CrossEntropyLoss = 3.0725 | Mean F1Score = 0.3294
+Validation : Mean CrossEntropyLoss = 3.0597 | Mean F1Score = 0.3549
+============================================================
+
+EPOCH-2
+Batch-50: CrossEntropyLoss=3.0752 | F1Score=0.3806
+Batch-100: CrossEntropyLoss=3.0607 | F1Score=0.3792
+Batch-150: CrossEntropyLoss=3.0650 | F1Score=0.3808
+Batch-200: CrossEntropyLoss=3.0546 | F1Score=0.3810
+Batch-226: CrossEntropyLoss=3.0338 | F1Score=0.3817
+Batch-26: CrossEntropyLoss=2.9907 | F1Score=0.3834
+
+Yeah 🎉😄! Model improved.
+Training   : Mean CrossEntropyLoss = 3.0585 | Mean F1Score = 0.3796
+Validation : Mean CrossEntropyLoss = 3.0545 | Mean F1Score = 0.3832
+============================================================
+
+EPOCH-3
+Batch-50: CrossEntropyLoss=3.0528 | F1Score=0.3779
+Batch-100: CrossEntropyLoss=3.0687 | F1Score=0.3840
+Batch-150: CrossEntropyLoss=3.0441 | F1Score=0.3910

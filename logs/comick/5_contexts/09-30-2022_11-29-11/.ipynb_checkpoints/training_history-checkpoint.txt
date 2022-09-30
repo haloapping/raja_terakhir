@@ -1,13 +1,15 @@
 HYPERPARAMETERS
 --------------------------------------------------
-context_size: 79
-input_size: 64
+context_size: 5
+input_size_left_context: 64
+input_size_oov_context: 20
+input_size_right_context: 64
 batch_size: 32
 num_hidden_layer: 1
 hidden_size: 128
-output_size: 24
+output_size: 3611
 shuffle: True
-lr: 0.005
+lr: 0.001
 batch_first: True
 bidirectional: True
 init_wb_with_kaiming_normal: True
@@ -18,3 +20,6 @@ device: cpu
 TRAINING PROGRESS
 --------------------------------------------------
 EPOCH-1
+Batch-50: NLLLoss=6.5263 | F1Score=0.2837
+Batch-100: NLLLoss=5.4040 | F1Score=0.3059
+Batch-150: NLLLoss=5.7614 | F1Score=0.3200
