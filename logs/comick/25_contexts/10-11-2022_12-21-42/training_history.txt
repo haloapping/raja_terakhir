@@ -1,0 +1,371 @@
+HYPERPARAMETERS
+--------------------------------------------------
+context_size: 25
+input_size_left_context: 64
+input_size_oov_context: 20
+input_size_right_context: 64
+batch_size: 32
+num_hidden_layer: 1
+hidden_size: 128
+output_size: 3611
+shuffle: True
+lr: 0.001
+batch_first: True
+bidirectional: True
+init_wb_with_kaiming_normal: True
+n_epoch: 20
+patience: 20
+device: cpu
+
+
+TRAINING PROGRESS
+--------------------------------------------------
+EPOCH-1
+Batch-50 : NLLLoss=6.1326 | F1Score=0.2725
+Batch-100: NLLLoss=6.1231 | F1Score=0.2994
+Batch-150: NLLLoss=4.4804 | F1Score=0.3212
+Batch-200: NLLLoss=3.5206 | F1Score=0.3377
+Batch-250: NLLLoss=3.5622 | F1Score=0.3593
+Batch-300: NLLLoss=3.1662 | F1Score=0.3792
+Batch-350: NLLLoss=4.5824 | F1Score=0.3935
+Batch-400: NLLLoss=3.4164 | F1Score=0.4085
+Batch-450: NLLLoss=2.6339 | F1Score=0.4224
+Batch-500: NLLLoss=3.1520 | F1Score=0.4340
+Batch-518: NLLLoss=2.7964 | F1Score=0.4381
+
+Mean NLLLoss: 4.5123 | Mean F1Score: 0.3541
+==================================================
+
+EPOCH-2
+Batch-50 : NLLLoss=2.6918 | F1Score=0.5819
+Batch-100: NLLLoss=2.1554 | F1Score=0.5975
+Batch-150: NLLLoss=2.2141 | F1Score=0.6065
+Batch-200: NLLLoss=2.4957 | F1Score=0.6067
+Batch-250: NLLLoss=2.8140 | F1Score=0.6126
+Batch-300: NLLLoss=3.3044 | F1Score=0.6203
+Batch-350: NLLLoss=2.0840 | F1Score=0.6272
+Batch-400: NLLLoss=1.8783 | F1Score=0.6298
+Batch-450: NLLLoss=2.6806 | F1Score=0.6346
+Batch-500: NLLLoss=2.5200 | F1Score=0.6401
+Batch-518: NLLLoss=2.5665 | F1Score=0.6427
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 2.6904 | Mean F1Score: 0.6142
+==================================================
+
+EPOCH-3
+Batch-50 : NLLLoss=1.7898 | F1Score=0.7212
+Batch-100: NLLLoss=2.4818 | F1Score=0.7306
+Batch-150: NLLLoss=1.5190 | F1Score=0.7331
+Batch-200: NLLLoss=1.2977 | F1Score=0.7372
+Batch-250: NLLLoss=0.4020 | F1Score=0.7377
+Batch-300: NLLLoss=2.4987 | F1Score=0.7389
+Batch-350: NLLLoss=2.4006 | F1Score=0.7413
+Batch-400: NLLLoss=1.5320 | F1Score=0.7453
+Batch-450: NLLLoss=2.9819 | F1Score=0.7481
+Batch-500: NLLLoss=1.5421 | F1Score=0.7485
+Batch-518: NLLLoss=0.7335 | F1Score=0.7492
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 1.7639 | Mean F1Score: 0.7389
+==================================================
+
+EPOCH-4
+Batch-50 : NLLLoss=1.2155 | F1Score=0.8096
+Batch-100: NLLLoss=0.7382 | F1Score=0.8108
+Batch-150: NLLLoss=1.1188 | F1Score=0.8120
+Batch-200: NLLLoss=0.8461 | F1Score=0.8135
+Batch-250: NLLLoss=0.8206 | F1Score=0.8137
+Batch-300: NLLLoss=1.7783 | F1Score=0.8135
+Batch-350: NLLLoss=1.2425 | F1Score=0.8147
+Batch-400: NLLLoss=1.0134 | F1Score=0.8161
+Batch-450: NLLLoss=1.1183 | F1Score=0.8184
+Batch-500: NLLLoss=0.9655 | F1Score=0.8195
+Batch-518: NLLLoss=0.6786 | F1Score=0.8208
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 1.1317 | Mean F1Score: 0.8108
+==================================================
+
+EPOCH-5
+Batch-50 : NLLLoss=0.5452 | F1Score=0.8994
+Batch-100: NLLLoss=0.7853 | F1Score=0.8894
+Batch-150: NLLLoss=0.3225 | F1Score=0.8848
+Batch-200: NLLLoss=0.9636 | F1Score=0.8825
+Batch-250: NLLLoss=0.4510 | F1Score=0.8825
+Batch-300: NLLLoss=0.5892 | F1Score=0.8786
+Batch-350: NLLLoss=0.6429 | F1Score=0.8784
+Batch-400: NLLLoss=0.4697 | F1Score=0.8768
+Batch-450: NLLLoss=0.3238 | F1Score=0.8779
+Batch-500: NLLLoss=0.9199 | F1Score=0.8773
+Batch-518: NLLLoss=0.6380 | F1Score=0.8770
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.6615 | Mean F1Score: 0.8834
+==================================================
+
+EPOCH-6
+Batch-50 : NLLLoss=0.1486 | F1Score=0.9531
+Batch-100: NLLLoss=0.2491 | F1Score=0.9592
+Batch-150: NLLLoss=0.3367 | F1Score=0.9572
+Batch-200: NLLLoss=0.1151 | F1Score=0.9574
+Batch-250: NLLLoss=0.2675 | F1Score=0.9551
+Batch-300: NLLLoss=0.1768 | F1Score=0.9539
+Batch-350: NLLLoss=0.5450 | F1Score=0.9524
+Batch-400: NLLLoss=0.2095 | F1Score=0.9509
+Batch-450: NLLLoss=0.4474 | F1Score=0.9479
+Batch-500: NLLLoss=0.0235 | F1Score=0.9475
+Batch-518: NLLLoss=0.0773 | F1Score=0.9466
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.3088 | Mean F1Score: 0.9535
+==================================================
+
+EPOCH-7
+Batch-50 : NLLLoss=0.0991 | F1Score=0.9862
+Batch-100: NLLLoss=0.1290 | F1Score=0.9894
+Batch-150: NLLLoss=0.0814 | F1Score=0.9890
+Batch-200: NLLLoss=0.1601 | F1Score=0.9899
+Batch-250: NLLLoss=0.0951 | F1Score=0.9907
+Batch-300: NLLLoss=0.1635 | F1Score=0.9905
+Batch-350: NLLLoss=0.0694 | F1Score=0.9902
+Batch-400: NLLLoss=0.0844 | F1Score=0.9900
+Batch-450: NLLLoss=0.2535 | F1Score=0.9894
+Batch-500: NLLLoss=0.2433 | F1Score=0.9889
+Batch-518: NLLLoss=0.0770 | F1Score=0.9886
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.1078 | Mean F1Score: 0.9887
+==================================================
+
+EPOCH-8
+Batch-50 : NLLLoss=0.0122 | F1Score=0.9962
+Batch-100: NLLLoss=0.0123 | F1Score=0.9969
+Batch-150: NLLLoss=0.0335 | F1Score=0.9975
+Batch-200: NLLLoss=0.0221 | F1Score=0.9978
+Batch-250: NLLLoss=0.0212 | F1Score=0.9976
+Batch-300: NLLLoss=0.0080 | F1Score=0.9979
+Batch-350: NLLLoss=0.0172 | F1Score=0.9980
+Batch-400: NLLLoss=0.0554 | F1Score=0.9979
+Batch-450: NLLLoss=0.0216 | F1Score=0.9978
+Batch-500: NLLLoss=0.0248 | F1Score=0.9979
+Batch-518: NLLLoss=0.0139 | F1Score=0.9979
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0297 | Mean F1Score: 0.9975
+==================================================
+
+EPOCH-9
+Batch-50 : NLLLoss=0.0089 | F1Score=0.9987
+Batch-100: NLLLoss=0.0226 | F1Score=0.9987
+Batch-150: NLLLoss=0.0060 | F1Score=0.9987
+Batch-200: NLLLoss=0.0065 | F1Score=0.9991
+Batch-250: NLLLoss=0.0109 | F1Score=0.9991
+Batch-300: NLLLoss=0.0023 | F1Score=0.9991
+Batch-350: NLLLoss=0.0029 | F1Score=0.9990
+Batch-400: NLLLoss=0.0113 | F1Score=0.9990
+Batch-450: NLLLoss=0.0126 | F1Score=0.9991
+Batch-500: NLLLoss=0.0056 | F1Score=0.9990
+Batch-518: NLLLoss=0.0127 | F1Score=0.9990
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0120 | Mean F1Score: 0.9990
+==================================================
+
+EPOCH-10
+Batch-50 : NLLLoss=0.0168 | F1Score=1.0000
+Batch-100: NLLLoss=0.0064 | F1Score=0.9994
+Batch-150: NLLLoss=0.0079 | F1Score=0.9994
+Batch-200: NLLLoss=0.0048 | F1Score=0.9992
+Batch-250: NLLLoss=0.0072 | F1Score=0.9994
+Batch-300: NLLLoss=0.0072 | F1Score=0.9992
+Batch-350: NLLLoss=0.0098 | F1Score=0.9992
+Batch-400: NLLLoss=0.0209 | F1Score=0.9993
+Batch-450: NLLLoss=0.0053 | F1Score=0.9992
+Batch-500: NLLLoss=0.0040 | F1Score=0.9992
+Batch-518: NLLLoss=0.0019 | F1Score=0.9993
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0081 | Mean F1Score: 0.9994
+==================================================
+
+EPOCH-11
+Batch-50 : NLLLoss=0.0046 | F1Score=1.0000
+Batch-100: NLLLoss=0.0037 | F1Score=0.9995
+Batch-150: NLLLoss=0.0051 | F1Score=0.9993
+Batch-200: NLLLoss=0.0076 | F1Score=0.9991
+Batch-250: NLLLoss=0.0144 | F1Score=0.9992
+Batch-300: NLLLoss=0.1955 | F1Score=0.9965
+Batch-350: NLLLoss=0.0456 | F1Score=0.9881
+Batch-400: NLLLoss=0.2838 | F1Score=0.9805
+Batch-450: NLLLoss=0.1075 | F1Score=0.9751
+Batch-500: NLLLoss=0.2712 | F1Score=0.9728
+Batch-518: NLLLoss=0.1854 | F1Score=0.9725
+
+Huft 😥! Model not improved.
+Mean NLLLoss: 0.1166 | Mean F1Score: 0.9915
+Patience = 1/20❗
+==================================================
+
+EPOCH-12
+Batch-50 : NLLLoss=0.1119 | F1Score=0.9781
+Batch-100: NLLLoss=0.1835 | F1Score=0.9802
+Batch-150: NLLLoss=0.0771 | F1Score=0.9818
+Batch-200: NLLLoss=0.0165 | F1Score=0.9833
+Batch-250: NLLLoss=0.1921 | F1Score=0.9837
+Batch-300: NLLLoss=0.0071 | F1Score=0.9848
+Batch-350: NLLLoss=0.0444 | F1Score=0.9853
+Batch-400: NLLLoss=0.1627 | F1Score=0.9854
+Batch-450: NLLLoss=0.0701 | F1Score=0.9858
+Batch-500: NLLLoss=0.0196 | F1Score=0.9861
+Batch-518: NLLLoss=0.0745 | F1Score=0.9863
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0717 | Mean F1Score: 0.9834
+==================================================
+
+EPOCH-13
+Batch-50 : NLLLoss=0.0077 | F1Score=0.9975
+Batch-100: NLLLoss=0.0060 | F1Score=0.9987
+Batch-150: NLLLoss=0.0063 | F1Score=0.9989
+Batch-200: NLLLoss=0.0072 | F1Score=0.9990
+Batch-250: NLLLoss=0.0038 | F1Score=0.9989
+Batch-300: NLLLoss=0.0138 | F1Score=0.9991
+Batch-350: NLLLoss=0.0035 | F1Score=0.9992
+Batch-400: NLLLoss=0.0038 | F1Score=0.9992
+Batch-450: NLLLoss=0.0027 | F1Score=0.9991
+Batch-500: NLLLoss=0.0107 | F1Score=0.9989
+Batch-518: NLLLoss=0.0091 | F1Score=0.9990
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0095 | Mean F1Score: 0.9988
+==================================================
+
+EPOCH-14
+Batch-50 : NLLLoss=0.0018 | F1Score=0.9994
+Batch-100: NLLLoss=0.0015 | F1Score=0.9995
+Batch-150: NLLLoss=0.0019 | F1Score=0.9997
+Batch-200: NLLLoss=0.0021 | F1Score=0.9998
+Batch-250: NLLLoss=0.0011 | F1Score=0.9998
+Batch-300: NLLLoss=0.0017 | F1Score=0.9998
+Batch-350: NLLLoss=0.0014 | F1Score=0.9999
+Batch-400: NLLLoss=0.0020 | F1Score=0.9999
+Batch-450: NLLLoss=0.0025 | F1Score=0.9998
+Batch-500: NLLLoss=0.0015 | F1Score=0.9997
+Batch-518: NLLLoss=0.0023 | F1Score=0.9997
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0031 | Mean F1Score: 0.9997
+==================================================
+
+EPOCH-15
+Batch-50 : NLLLoss=0.0005 | F1Score=0.9994
+Batch-100: NLLLoss=0.0010 | F1Score=0.9994
+Batch-150: NLLLoss=0.0019 | F1Score=0.9996
+Batch-200: NLLLoss=0.0018 | F1Score=0.9995
+Batch-250: NLLLoss=0.0017 | F1Score=0.9994
+Batch-300: NLLLoss=0.0020 | F1Score=0.9994
+Batch-350: NLLLoss=0.0008 | F1Score=0.9994
+Batch-400: NLLLoss=0.0013 | F1Score=0.9995
+Batch-450: NLLLoss=0.0013 | F1Score=0.9994
+Batch-500: NLLLoss=0.0019 | F1Score=0.9995
+Batch-518: NLLLoss=0.0016 | F1Score=0.9995
+
+Huft 😥! Model not improved.
+Mean NLLLoss: 0.0035 | Mean F1Score: 0.9994
+Patience = 2/20❗
+==================================================
+
+EPOCH-16
+Batch-50 : NLLLoss=0.0009 | F1Score=0.9991
+Batch-100: NLLLoss=0.0017 | F1Score=0.9991
+Batch-150: NLLLoss=0.0013 | F1Score=0.9994
+Batch-200: NLLLoss=0.0010 | F1Score=0.9994
+Batch-250: NLLLoss=0.0023 | F1Score=0.9995
+Batch-300: NLLLoss=0.0008 | F1Score=0.9996
+Batch-350: NLLLoss=0.0007 | F1Score=0.9996
+Batch-400: NLLLoss=0.0009 | F1Score=0.9997
+Batch-450: NLLLoss=0.0004 | F1Score=0.9997
+Batch-500: NLLLoss=0.0017 | F1Score=0.9997
+Batch-518: NLLLoss=0.0007 | F1Score=0.9998
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0024 | Mean F1Score: 0.9995
+==================================================
+
+EPOCH-17
+Batch-50 : NLLLoss=0.0009 | F1Score=1.0000
+Batch-100: NLLLoss=0.0009 | F1Score=0.9998
+Batch-150: NLLLoss=0.0009 | F1Score=0.9999
+Batch-200: NLLLoss=0.0007 | F1Score=0.9999
+Batch-250: NLLLoss=0.0005 | F1Score=0.9999
+Batch-300: NLLLoss=0.0005 | F1Score=0.9999
+Batch-350: NLLLoss=0.0005 | F1Score=0.9999
+Batch-400: NLLLoss=0.0005 | F1Score=0.9999
+Batch-450: NLLLoss=0.0005 | F1Score=0.9999
+Batch-500: NLLLoss=0.0006 | F1Score=0.9999
+Batch-518: NLLLoss=0.0006 | F1Score=0.9999
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0011 | Mean F1Score: 0.9999
+==================================================
+
+EPOCH-18
+Batch-50 : NLLLoss=0.0004 | F1Score=1.0000
+Batch-100: NLLLoss=0.0007 | F1Score=1.0000
+Batch-150: NLLLoss=0.0004 | F1Score=1.0000
+Batch-200: NLLLoss=0.0005 | F1Score=1.0000
+Batch-250: NLLLoss=0.0005 | F1Score=1.0000
+Batch-300: NLLLoss=0.0006 | F1Score=0.9999
+Batch-350: NLLLoss=0.0009 | F1Score=1.0000
+Batch-400: NLLLoss=0.0004 | F1Score=0.9999
+Batch-450: NLLLoss=0.0008 | F1Score=0.9999
+Batch-500: NLLLoss=0.0012 | F1Score=0.9999
+Batch-518: NLLLoss=0.0010 | F1Score=0.9999
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0010 | Mean F1Score: 1.0000
+==================================================
+
+EPOCH-19
+Batch-50 : NLLLoss=0.0007 | F1Score=1.0000
+Batch-100: NLLLoss=0.0005 | F1Score=0.9998
+Batch-150: NLLLoss=0.0009 | F1Score=0.9997
+Batch-200: NLLLoss=0.0015 | F1Score=0.9996
+Batch-250: NLLLoss=0.0015 | F1Score=0.9996
+Batch-300: NLLLoss=0.1503 | F1Score=0.9993
+Batch-350: NLLLoss=0.3038 | F1Score=0.9942
+Batch-400: NLLLoss=0.1613 | F1Score=0.9815
+Batch-450: NLLLoss=0.3718 | F1Score=0.9743
+Batch-500: NLLLoss=0.1861 | F1Score=0.9711
+Batch-518: NLLLoss=0.0355 | F1Score=0.9710
+
+Huft 😥! Model not improved.
+Mean NLLLoss: 0.1152 | Mean F1Score: 0.9926
+Patience = 3/20❗
+==================================================
+
+EPOCH-20
+Batch-50 : NLLLoss=0.1513 | F1Score=0.9631
+Batch-100: NLLLoss=0.0658 | F1Score=0.9698
+Batch-150: NLLLoss=0.0449 | F1Score=0.9730
+Batch-200: NLLLoss=0.0170 | F1Score=0.9749
+Batch-250: NLLLoss=0.0679 | F1Score=0.9762
+Batch-300: NLLLoss=0.0430 | F1Score=0.9770
+Batch-350: NLLLoss=0.0558 | F1Score=0.9789
+Batch-400: NLLLoss=0.0318 | F1Score=0.9801
+Batch-450: NLLLoss=0.0977 | F1Score=0.9810
+Batch-500: NLLLoss=0.0179 | F1Score=0.9823
+Batch-518: NLLLoss=0.0152 | F1Score=0.9827
+
+Yeah 🎉😄! Model improved.
+Mean NLLLoss: 0.0737 | Mean F1Score: 0.9755
+==================================================
+
+
+TRAINING SUMMARY
+--------------------------------------------------
+Best NLLLoss      : 0.0737
+Best F1Score      : 0.9755
+Training duration : 17.467 minutes.
+Training date     : 2022-10-11 12:21:42.859413+08:00

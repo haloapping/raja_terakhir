@@ -1,0 +1,1636 @@
+HYPERPARAMETERS
+--------------------------------------------------------------------------------
+context_size: 79
+fold: 1
+input_size: 64
+max_seq_len: 82
+batch_size: 32
+num_hidden_layer: 1
+hidden_size: 128
+dropout: 0
+bias: True
+output_size: 24
+shuffle: True
+lr: 0.005
+batch_first: False
+bidirectional: True
+init_wb_with_kaiming_normal: True
+n_epoch: 50
+patience: 50
+device: cuda
+
+
+TRAINING PROGRESS
+--------------------------------------------------------------------------------
+EPOCH-1
+Training Step
+Batch-15 : CrossEntropyLoss=2.4952 | MulticlassF1Score=0.1291
+Batch-30 : CrossEntropyLoss=2.4954 | MulticlassF1Score=0.1923
+Batch-45 : CrossEntropyLoss=2.4681 | MulticlassF1Score=0.2287
+Batch-60 : CrossEntropyLoss=2.4688 | MulticlassF1Score=0.2465
+Batch-75 : CrossEntropyLoss=2.4616 | MulticlassF1Score=0.2581
+Batch-90 : CrossEntropyLoss=2.4284 | MulticlassF1Score=0.2754
+Batch-105: CrossEntropyLoss=2.4236 | MulticlassF1Score=0.3005
+Batch-120: CrossEntropyLoss=2.4224 | MulticlassF1Score=0.3215
+Batch-135: CrossEntropyLoss=2.4086 | MulticlassF1Score=0.3384
+Batch-150: CrossEntropyLoss=2.3763 | MulticlassF1Score=0.3555
+Batch-165: CrossEntropyLoss=2.3609 | MulticlassF1Score=0.3757
+Batch-180: CrossEntropyLoss=2.3756 | MulticlassF1Score=0.3929
+Batch-195: CrossEntropyLoss=2.3587 | MulticlassF1Score=0.4095
+Batch-210: CrossEntropyLoss=2.3502 | MulticlassF1Score=0.4267
+Batch-225: CrossEntropyLoss=2.3588 | MulticlassF1Score=0.4422
+Batch-226: CrossEntropyLoss=2.3833 | MulticlassF1Score=0.4430
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.3584 | MulticlassF1Score=0.6640
+Batch-30 : CrossEntropyLoss=2.3438 | MulticlassF1Score=0.6667
+Batch-45 : CrossEntropyLoss=2.3511 | MulticlassF1Score=0.6672
+Batch-60 : CrossEntropyLoss=2.3399 | MulticlassF1Score=0.6675
+Batch-63 : CrossEntropyLoss=2.3725 | MulticlassF1Score=0.6665
+
+Training   : Mean CrossEntropyLoss = 2.4298 | Mean MulticlassF1Score = 0.3015
+Validation : Mean CrossEntropyLoss = 2.3532 | Mean MulticlassF1Score = 0.6646
+================================================================================
+
+EPOCH-2
+Training Step
+Batch-15 : CrossEntropyLoss=2.3595 | MulticlassF1Score=0.6633
+Batch-30 : CrossEntropyLoss=2.3619 | MulticlassF1Score=0.6698
+Batch-45 : CrossEntropyLoss=2.3510 | MulticlassF1Score=0.6726
+Batch-60 : CrossEntropyLoss=2.3514 | MulticlassF1Score=0.6731
+Batch-75 : CrossEntropyLoss=2.3566 | MulticlassF1Score=0.6743
+Batch-90 : CrossEntropyLoss=2.3399 | MulticlassF1Score=0.6750
+Batch-105: CrossEntropyLoss=2.3556 | MulticlassF1Score=0.6755
+Batch-120: CrossEntropyLoss=2.3543 | MulticlassF1Score=0.6774
+Batch-135: CrossEntropyLoss=2.3325 | MulticlassF1Score=0.6815
+Batch-150: CrossEntropyLoss=2.3467 | MulticlassF1Score=0.6850
+Batch-165: CrossEntropyLoss=2.3299 | MulticlassF1Score=0.6899
+Batch-180: CrossEntropyLoss=2.3189 | MulticlassF1Score=0.6970
+Batch-195: CrossEntropyLoss=2.3214 | MulticlassF1Score=0.7036
+Batch-210: CrossEntropyLoss=2.3130 | MulticlassF1Score=0.7093
+Batch-225: CrossEntropyLoss=2.3178 | MulticlassF1Score=0.7140
+Batch-226: CrossEntropyLoss=2.3139 | MulticlassF1Score=0.7142
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.3121 | MulticlassF1Score=0.7931
+Batch-30 : CrossEntropyLoss=2.3072 | MulticlassF1Score=0.7917
+Batch-45 : CrossEntropyLoss=2.3207 | MulticlassF1Score=0.7900
+Batch-60 : CrossEntropyLoss=2.3102 | MulticlassF1Score=0.7875
+Batch-63 : CrossEntropyLoss=2.3135 | MulticlassF1Score=0.7874
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.3371 | Mean MulticlassF1Score = 0.6828
+Validation : Mean CrossEntropyLoss = 2.3148 | Mean MulticlassF1Score = 0.7896
+================================================================================
+
+EPOCH-3
+Training Step
+Batch-15 : CrossEntropyLoss=2.3152 | MulticlassF1Score=0.7899
+Batch-30 : CrossEntropyLoss=2.3163 | MulticlassF1Score=0.7916
+Batch-45 : CrossEntropyLoss=2.3092 | MulticlassF1Score=0.7923
+Batch-60 : CrossEntropyLoss=2.3140 | MulticlassF1Score=0.7911
+Batch-75 : CrossEntropyLoss=2.3047 | MulticlassF1Score=0.7906
+Batch-90 : CrossEntropyLoss=2.3161 | MulticlassF1Score=0.7912
+Batch-105: CrossEntropyLoss=2.3064 | MulticlassF1Score=0.7913
+Batch-120: CrossEntropyLoss=2.3044 | MulticlassF1Score=0.7909
+Batch-135: CrossEntropyLoss=2.3140 | MulticlassF1Score=0.7913
+Batch-150: CrossEntropyLoss=2.3169 | MulticlassF1Score=0.7912
+Batch-165: CrossEntropyLoss=2.3047 | MulticlassF1Score=0.7913
+Batch-180: CrossEntropyLoss=2.3104 | MulticlassF1Score=0.7917
+Batch-195: CrossEntropyLoss=2.3086 | MulticlassF1Score=0.7913
+Batch-210: CrossEntropyLoss=2.3153 | MulticlassF1Score=0.7921
+Batch-225: CrossEntropyLoss=2.3033 | MulticlassF1Score=0.7936
+Batch-226: CrossEntropyLoss=2.2998 | MulticlassF1Score=0.7937
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.3124 | MulticlassF1Score=0.8081
+Batch-30 : CrossEntropyLoss=2.2952 | MulticlassF1Score=0.8095
+Batch-45 : CrossEntropyLoss=2.3099 | MulticlassF1Score=0.8111
+Batch-60 : CrossEntropyLoss=2.3104 | MulticlassF1Score=0.8105
+Batch-63 : CrossEntropyLoss=2.3049 | MulticlassF1Score=0.8109
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.3120 | Mean MulticlassF1Score = 0.7913
+Validation : Mean CrossEntropyLoss = 2.3071 | Mean MulticlassF1Score = 0.8081
+================================================================================
+
+EPOCH-4
+Training Step
+Batch-15 : CrossEntropyLoss=2.3113 | MulticlassF1Score=0.8213
+Batch-30 : CrossEntropyLoss=2.3069 | MulticlassF1Score=0.8158
+Batch-45 : CrossEntropyLoss=2.3029 | MulticlassF1Score=0.8147
+Batch-60 : CrossEntropyLoss=2.2989 | MulticlassF1Score=0.8182
+Batch-75 : CrossEntropyLoss=2.3039 | MulticlassF1Score=0.8198
+Batch-90 : CrossEntropyLoss=2.2918 | MulticlassF1Score=0.8212
+Batch-105: CrossEntropyLoss=2.3095 | MulticlassF1Score=0.8213
+Batch-120: CrossEntropyLoss=2.3037 | MulticlassF1Score=0.8225
+Batch-135: CrossEntropyLoss=2.2950 | MulticlassF1Score=0.8222
+Batch-150: CrossEntropyLoss=2.3114 | MulticlassF1Score=0.8223
+Batch-165: CrossEntropyLoss=2.3023 | MulticlassF1Score=0.8221
+Batch-180: CrossEntropyLoss=2.2977 | MulticlassF1Score=0.8224
+Batch-195: CrossEntropyLoss=2.3051 | MulticlassF1Score=0.8232
+Batch-210: CrossEntropyLoss=2.3027 | MulticlassF1Score=0.8241
+Batch-225: CrossEntropyLoss=2.2921 | MulticlassF1Score=0.8248
+Batch-226: CrossEntropyLoss=2.3078 | MulticlassF1Score=0.8248
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.3055 | MulticlassF1Score=0.8289
+Batch-30 : CrossEntropyLoss=2.2968 | MulticlassF1Score=0.8295
+Batch-45 : CrossEntropyLoss=2.3038 | MulticlassF1Score=0.8309
+Batch-60 : CrossEntropyLoss=2.2966 | MulticlassF1Score=0.8334
+Batch-63 : CrossEntropyLoss=2.2936 | MulticlassF1Score=0.8337
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.3022 | Mean MulticlassF1Score = 0.8211
+Validation : Mean CrossEntropyLoss = 2.2997 | Mean MulticlassF1Score = 0.8303
+================================================================================
+
+EPOCH-5
+Training Step
+Batch-15 : CrossEntropyLoss=2.2954 | MulticlassF1Score=0.8452
+Batch-30 : CrossEntropyLoss=2.2961 | MulticlassF1Score=0.8384
+Batch-45 : CrossEntropyLoss=2.2961 | MulticlassF1Score=0.8393
+Batch-60 : CrossEntropyLoss=2.2962 | MulticlassF1Score=0.8369
+Batch-75 : CrossEntropyLoss=2.2935 | MulticlassF1Score=0.8372
+Batch-90 : CrossEntropyLoss=2.2978 | MulticlassF1Score=0.8365
+Batch-105: CrossEntropyLoss=2.2996 | MulticlassF1Score=0.8358
+Batch-120: CrossEntropyLoss=2.2961 | MulticlassF1Score=0.8364
+Batch-135: CrossEntropyLoss=2.3018 | MulticlassF1Score=0.8364
+Batch-150: CrossEntropyLoss=2.3012 | MulticlassF1Score=0.8365
+Batch-165: CrossEntropyLoss=2.3040 | MulticlassF1Score=0.8365
+Batch-180: CrossEntropyLoss=2.2934 | MulticlassF1Score=0.8367
+Batch-195: CrossEntropyLoss=2.3076 | MulticlassF1Score=0.8367
+Batch-210: CrossEntropyLoss=2.3011 | MulticlassF1Score=0.8369
+Batch-225: CrossEntropyLoss=2.3001 | MulticlassF1Score=0.8372
+Batch-226: CrossEntropyLoss=2.2969 | MulticlassF1Score=0.8373
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.3035 | MulticlassF1Score=0.8377
+Batch-30 : CrossEntropyLoss=2.2992 | MulticlassF1Score=0.8347
+Batch-45 : CrossEntropyLoss=2.3061 | MulticlassF1Score=0.8339
+Batch-60 : CrossEntropyLoss=2.2972 | MulticlassF1Score=0.8346
+Batch-63 : CrossEntropyLoss=2.3052 | MulticlassF1Score=0.8340
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2981 | Mean MulticlassF1Score = 0.8376
+Validation : Mean CrossEntropyLoss = 2.2995 | Mean MulticlassF1Score = 0.8357
+================================================================================
+
+EPOCH-6
+Training Step
+Batch-15 : CrossEntropyLoss=2.2961 | MulticlassF1Score=0.8445
+Batch-30 : CrossEntropyLoss=2.2977 | MulticlassF1Score=0.8428
+Batch-45 : CrossEntropyLoss=2.2942 | MulticlassF1Score=0.8423
+Batch-60 : CrossEntropyLoss=2.3025 | MulticlassF1Score=0.8409
+Batch-75 : CrossEntropyLoss=2.2941 | MulticlassF1Score=0.8415
+Batch-90 : CrossEntropyLoss=2.2956 | MulticlassF1Score=0.8391
+Batch-105: CrossEntropyLoss=2.3085 | MulticlassF1Score=0.8386
+Batch-120: CrossEntropyLoss=2.2937 | MulticlassF1Score=0.8388
+Batch-135: CrossEntropyLoss=2.2956 | MulticlassF1Score=0.8382
+Batch-150: CrossEntropyLoss=2.2961 | MulticlassF1Score=0.8387
+Batch-165: CrossEntropyLoss=2.2905 | MulticlassF1Score=0.8390
+Batch-180: CrossEntropyLoss=2.3001 | MulticlassF1Score=0.8396
+Batch-195: CrossEntropyLoss=2.3041 | MulticlassF1Score=0.8390
+Batch-210: CrossEntropyLoss=2.2911 | MulticlassF1Score=0.8393
+Batch-225: CrossEntropyLoss=2.3127 | MulticlassF1Score=0.8393
+Batch-226: CrossEntropyLoss=2.2919 | MulticlassF1Score=0.8393
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.3014 | MulticlassF1Score=0.8353
+Batch-30 : CrossEntropyLoss=2.2963 | MulticlassF1Score=0.8341
+Batch-45 : CrossEntropyLoss=2.3025 | MulticlassF1Score=0.8365
+Batch-60 : CrossEntropyLoss=2.3040 | MulticlassF1Score=0.8340
+Batch-63 : CrossEntropyLoss=2.2938 | MulticlassF1Score=0.8342
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2974 | Mean MulticlassF1Score = 0.8403
+Validation : Mean CrossEntropyLoss = 2.2992 | Mean MulticlassF1Score = 0.8344
+================================================================================
+
+EPOCH-7
+Training Step
+Batch-15 : CrossEntropyLoss=2.2943 | MulticlassF1Score=0.8460
+Batch-30 : CrossEntropyLoss=2.2999 | MulticlassF1Score=0.8436
+Batch-45 : CrossEntropyLoss=2.3028 | MulticlassF1Score=0.8414
+Batch-60 : CrossEntropyLoss=2.2923 | MulticlassF1Score=0.8429
+Batch-75 : CrossEntropyLoss=2.2892 | MulticlassF1Score=0.8420
+Batch-90 : CrossEntropyLoss=2.3086 | MulticlassF1Score=0.8407
+Batch-105: CrossEntropyLoss=2.2955 | MulticlassF1Score=0.8404
+Batch-120: CrossEntropyLoss=2.3064 | MulticlassF1Score=0.8404
+Batch-135: CrossEntropyLoss=2.2959 | MulticlassF1Score=0.8405
+Batch-150: CrossEntropyLoss=2.2919 | MulticlassF1Score=0.8403
+Batch-165: CrossEntropyLoss=2.2852 | MulticlassF1Score=0.8406
+Batch-180: CrossEntropyLoss=2.2972 | MulticlassF1Score=0.8412
+Batch-195: CrossEntropyLoss=2.3039 | MulticlassF1Score=0.8410
+Batch-210: CrossEntropyLoss=2.2970 | MulticlassF1Score=0.8410
+Batch-225: CrossEntropyLoss=2.2960 | MulticlassF1Score=0.8410
+Batch-226: CrossEntropyLoss=2.3081 | MulticlassF1Score=0.8408
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.3001 | MulticlassF1Score=0.8393
+Batch-30 : CrossEntropyLoss=2.3074 | MulticlassF1Score=0.8377
+Batch-45 : CrossEntropyLoss=2.2905 | MulticlassF1Score=0.8380
+Batch-60 : CrossEntropyLoss=2.3014 | MulticlassF1Score=0.8360
+Batch-63 : CrossEntropyLoss=2.2947 | MulticlassF1Score=0.8365
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2968 | Mean MulticlassF1Score = 0.8417
+Validation : Mean CrossEntropyLoss = 2.2985 | Mean MulticlassF1Score = 0.8380
+================================================================================
+
+EPOCH-8
+Training Step
+Batch-15 : CrossEntropyLoss=2.2909 | MulticlassF1Score=0.8448
+Batch-30 : CrossEntropyLoss=2.2956 | MulticlassF1Score=0.8419
+Batch-45 : CrossEntropyLoss=2.3010 | MulticlassF1Score=0.8426
+Batch-60 : CrossEntropyLoss=2.2994 | MulticlassF1Score=0.8437
+Batch-75 : CrossEntropyLoss=2.2895 | MulticlassF1Score=0.8429
+Batch-90 : CrossEntropyLoss=2.2940 | MulticlassF1Score=0.8429
+Batch-105: CrossEntropyLoss=2.2977 | MulticlassF1Score=0.8425
+Batch-120: CrossEntropyLoss=2.2998 | MulticlassF1Score=0.8419
+Batch-135: CrossEntropyLoss=2.3009 | MulticlassF1Score=0.8419
+Batch-150: CrossEntropyLoss=2.3020 | MulticlassF1Score=0.8419
+Batch-165: CrossEntropyLoss=2.2959 | MulticlassF1Score=0.8422
+Batch-180: CrossEntropyLoss=2.2990 | MulticlassF1Score=0.8429
+Batch-195: CrossEntropyLoss=2.2973 | MulticlassF1Score=0.8426
+Batch-210: CrossEntropyLoss=2.2916 | MulticlassF1Score=0.8423
+Batch-225: CrossEntropyLoss=2.2972 | MulticlassF1Score=0.8422
+Batch-226: CrossEntropyLoss=2.2954 | MulticlassF1Score=0.8422
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2891 | MulticlassF1Score=0.8381
+Batch-30 : CrossEntropyLoss=2.2866 | MulticlassF1Score=0.8366
+Batch-45 : CrossEntropyLoss=2.2937 | MulticlassF1Score=0.8369
+Batch-60 : CrossEntropyLoss=2.2943 | MulticlassF1Score=0.8367
+Batch-63 : CrossEntropyLoss=2.3100 | MulticlassF1Score=0.8365
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2964 | Mean MulticlassF1Score = 0.8427
+Validation : Mean CrossEntropyLoss = 2.2986 | Mean MulticlassF1Score = 0.8369
+================================================================================
+
+EPOCH-9
+Training Step
+Batch-15 : CrossEntropyLoss=2.3056 | MulticlassF1Score=0.8411
+Batch-30 : CrossEntropyLoss=2.2993 | MulticlassF1Score=0.8446
+Batch-45 : CrossEntropyLoss=2.2965 | MulticlassF1Score=0.8438
+Batch-60 : CrossEntropyLoss=2.3101 | MulticlassF1Score=0.8440
+Batch-75 : CrossEntropyLoss=2.2964 | MulticlassF1Score=0.8436
+Batch-90 : CrossEntropyLoss=2.2956 | MulticlassF1Score=0.8449
+Batch-105: CrossEntropyLoss=2.2866 | MulticlassF1Score=0.8450
+Batch-120: CrossEntropyLoss=2.2908 | MulticlassF1Score=0.8448
+Batch-135: CrossEntropyLoss=2.2995 | MulticlassF1Score=0.8442
+Batch-150: CrossEntropyLoss=2.2943 | MulticlassF1Score=0.8439
+Batch-165: CrossEntropyLoss=2.3064 | MulticlassF1Score=0.8434
+Batch-180: CrossEntropyLoss=2.2980 | MulticlassF1Score=0.8427
+Batch-195: CrossEntropyLoss=2.2910 | MulticlassF1Score=0.8432
+Batch-210: CrossEntropyLoss=2.2875 | MulticlassF1Score=0.8434
+Batch-225: CrossEntropyLoss=2.3023 | MulticlassF1Score=0.8430
+Batch-226: CrossEntropyLoss=2.2979 | MulticlassF1Score=0.8431
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2960 | MulticlassF1Score=0.8415
+Batch-30 : CrossEntropyLoss=2.2990 | MulticlassF1Score=0.8367
+Batch-45 : CrossEntropyLoss=2.3047 | MulticlassF1Score=0.8385
+Batch-60 : CrossEntropyLoss=2.2995 | MulticlassF1Score=0.8368
+Batch-63 : CrossEntropyLoss=2.3026 | MulticlassF1Score=0.8366
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2961 | Mean MulticlassF1Score = 0.8442
+Validation : Mean CrossEntropyLoss = 2.2985 | Mean MulticlassF1Score = 0.8388
+================================================================================
+
+EPOCH-10
+Training Step
+Batch-15 : CrossEntropyLoss=2.2962 | MulticlassF1Score=0.8498
+Batch-30 : CrossEntropyLoss=2.3012 | MulticlassF1Score=0.8454
+Batch-45 : CrossEntropyLoss=2.2943 | MulticlassF1Score=0.8453
+Batch-60 : CrossEntropyLoss=2.2975 | MulticlassF1Score=0.8429
+Batch-75 : CrossEntropyLoss=2.2921 | MulticlassF1Score=0.8460
+Batch-90 : CrossEntropyLoss=2.2849 | MulticlassF1Score=0.8483
+Batch-105: CrossEntropyLoss=2.2919 | MulticlassF1Score=0.8506
+Batch-120: CrossEntropyLoss=2.2885 | MulticlassF1Score=0.8520
+Batch-135: CrossEntropyLoss=2.2899 | MulticlassF1Score=0.8535
+Batch-150: CrossEntropyLoss=2.2917 | MulticlassF1Score=0.8540
+Batch-165: CrossEntropyLoss=2.2960 | MulticlassF1Score=0.8543
+Batch-180: CrossEntropyLoss=2.2868 | MulticlassF1Score=0.8547
+Batch-195: CrossEntropyLoss=2.2892 | MulticlassF1Score=0.8555
+Batch-210: CrossEntropyLoss=2.2896 | MulticlassF1Score=0.8554
+Batch-225: CrossEntropyLoss=2.2906 | MulticlassF1Score=0.8560
+Batch-226: CrossEntropyLoss=2.2862 | MulticlassF1Score=0.8561
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2989 | MulticlassF1Score=0.8522
+Batch-30 : CrossEntropyLoss=2.2961 | MulticlassF1Score=0.8537
+Batch-45 : CrossEntropyLoss=2.2937 | MulticlassF1Score=0.8538
+Batch-60 : CrossEntropyLoss=2.3009 | MulticlassF1Score=0.8555
+Batch-63 : CrossEntropyLoss=2.2881 | MulticlassF1Score=0.8560
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2923 | Mean MulticlassF1Score = 0.8508
+Validation : Mean CrossEntropyLoss = 2.2927 | Mean MulticlassF1Score = 0.8533
+================================================================================
+
+EPOCH-11
+Training Step
+Batch-15 : CrossEntropyLoss=2.2924 | MulticlassF1Score=0.8578
+Batch-30 : CrossEntropyLoss=2.2941 | MulticlassF1Score=0.8586
+Batch-45 : CrossEntropyLoss=2.2882 | MulticlassF1Score=0.8608
+Batch-60 : CrossEntropyLoss=2.2874 | MulticlassF1Score=0.8617
+Batch-75 : CrossEntropyLoss=2.2921 | MulticlassF1Score=0.8618
+Batch-90 : CrossEntropyLoss=2.2940 | MulticlassF1Score=0.8625
+Batch-105: CrossEntropyLoss=2.2847 | MulticlassF1Score=0.8636
+Batch-120: CrossEntropyLoss=2.2915 | MulticlassF1Score=0.8631
+Batch-135: CrossEntropyLoss=2.2890 | MulticlassF1Score=0.8633
+Batch-150: CrossEntropyLoss=2.2980 | MulticlassF1Score=0.8636
+Batch-165: CrossEntropyLoss=2.2854 | MulticlassF1Score=0.8634
+Batch-180: CrossEntropyLoss=2.2959 | MulticlassF1Score=0.8637
+Batch-195: CrossEntropyLoss=2.2880 | MulticlassF1Score=0.8640
+Batch-210: CrossEntropyLoss=2.2857 | MulticlassF1Score=0.8640
+Batch-225: CrossEntropyLoss=2.2951 | MulticlassF1Score=0.8638
+Batch-226: CrossEntropyLoss=2.2904 | MulticlassF1Score=0.8638
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2933 | MulticlassF1Score=0.8615
+Batch-30 : CrossEntropyLoss=2.2896 | MulticlassF1Score=0.8563
+Batch-45 : CrossEntropyLoss=2.2826 | MulticlassF1Score=0.8552
+Batch-60 : CrossEntropyLoss=2.2968 | MulticlassF1Score=0.8558
+Batch-63 : CrossEntropyLoss=2.2824 | MulticlassF1Score=0.8559
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2898 | Mean MulticlassF1Score = 0.8623
+Validation : Mean CrossEntropyLoss = 2.2926 | Mean MulticlassF1Score = 0.8573
+================================================================================
+
+EPOCH-12
+Training Step
+Batch-15 : CrossEntropyLoss=2.2832 | MulticlassF1Score=0.8688
+Batch-30 : CrossEntropyLoss=2.2934 | MulticlassF1Score=0.8660
+Batch-45 : CrossEntropyLoss=2.2894 | MulticlassF1Score=0.8651
+Batch-60 : CrossEntropyLoss=2.2906 | MulticlassF1Score=0.8651
+Batch-75 : CrossEntropyLoss=2.2950 | MulticlassF1Score=0.8656
+Batch-90 : CrossEntropyLoss=2.2921 | MulticlassF1Score=0.8655
+Batch-105: CrossEntropyLoss=2.2919 | MulticlassF1Score=0.8657
+Batch-120: CrossEntropyLoss=2.2849 | MulticlassF1Score=0.8656
+Batch-135: CrossEntropyLoss=2.2808 | MulticlassF1Score=0.8662
+Batch-150: CrossEntropyLoss=2.2904 | MulticlassF1Score=0.8662
+Batch-165: CrossEntropyLoss=2.2952 | MulticlassF1Score=0.8662
+Batch-180: CrossEntropyLoss=2.2973 | MulticlassF1Score=0.8657
+Batch-195: CrossEntropyLoss=2.2962 | MulticlassF1Score=0.8659
+Batch-210: CrossEntropyLoss=2.2867 | MulticlassF1Score=0.8657
+Batch-225: CrossEntropyLoss=2.2896 | MulticlassF1Score=0.8656
+Batch-226: CrossEntropyLoss=2.2821 | MulticlassF1Score=0.8657
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2917 | MulticlassF1Score=0.8528
+Batch-30 : CrossEntropyLoss=2.2944 | MulticlassF1Score=0.8550
+Batch-45 : CrossEntropyLoss=2.2927 | MulticlassF1Score=0.8579
+Batch-60 : CrossEntropyLoss=2.2922 | MulticlassF1Score=0.8573
+Batch-63 : CrossEntropyLoss=2.2950 | MulticlassF1Score=0.8582
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2892 | Mean MulticlassF1Score = 0.8659
+Validation : Mean CrossEntropyLoss = 2.2918 | Mean MulticlassF1Score = 0.8551
+================================================================================
+
+EPOCH-13
+Training Step
+Batch-15 : CrossEntropyLoss=2.2870 | MulticlassF1Score=0.8617
+Batch-30 : CrossEntropyLoss=2.2935 | MulticlassF1Score=0.8671
+Batch-45 : CrossEntropyLoss=2.2888 | MulticlassF1Score=0.8648
+Batch-60 : CrossEntropyLoss=2.2907 | MulticlassF1Score=0.8654
+Batch-75 : CrossEntropyLoss=2.2883 | MulticlassF1Score=0.8661
+Batch-90 : CrossEntropyLoss=2.2926 | MulticlassF1Score=0.8669
+Batch-105: CrossEntropyLoss=2.2882 | MulticlassF1Score=0.8672
+Batch-120: CrossEntropyLoss=2.2877 | MulticlassF1Score=0.8669
+Batch-135: CrossEntropyLoss=2.2894 | MulticlassF1Score=0.8669
+Batch-150: CrossEntropyLoss=2.2802 | MulticlassF1Score=0.8666
+Batch-165: CrossEntropyLoss=2.2927 | MulticlassF1Score=0.8663
+Batch-180: CrossEntropyLoss=2.2802 | MulticlassF1Score=0.8669
+Batch-195: CrossEntropyLoss=2.2881 | MulticlassF1Score=0.8672
+Batch-210: CrossEntropyLoss=2.2910 | MulticlassF1Score=0.8671
+Batch-225: CrossEntropyLoss=2.2909 | MulticlassF1Score=0.8673
+Batch-226: CrossEntropyLoss=2.2997 | MulticlassF1Score=0.8673
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2886 | MulticlassF1Score=0.8542
+Batch-30 : CrossEntropyLoss=2.2964 | MulticlassF1Score=0.8548
+Batch-45 : CrossEntropyLoss=2.2893 | MulticlassF1Score=0.8572
+Batch-60 : CrossEntropyLoss=2.2880 | MulticlassF1Score=0.8584
+Batch-63 : CrossEntropyLoss=2.2906 | MulticlassF1Score=0.8584
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2886 | Mean MulticlassF1Score = 0.8665
+Validation : Mean CrossEntropyLoss = 2.2917 | Mean MulticlassF1Score = 0.8552
+================================================================================
+
+EPOCH-14
+Training Step
+Batch-15 : CrossEntropyLoss=2.3039 | MulticlassF1Score=0.8586
+Batch-30 : CrossEntropyLoss=2.2769 | MulticlassF1Score=0.8665
+Batch-45 : CrossEntropyLoss=2.2850 | MulticlassF1Score=0.8725
+Batch-60 : CrossEntropyLoss=2.2792 | MulticlassF1Score=0.8772
+Batch-75 : CrossEntropyLoss=2.2835 | MulticlassF1Score=0.8797
+Batch-90 : CrossEntropyLoss=2.2816 | MulticlassF1Score=0.8810
+Batch-105: CrossEntropyLoss=2.2739 | MulticlassF1Score=0.8847
+Batch-120: CrossEntropyLoss=2.2696 | MulticlassF1Score=0.8886
+Batch-135: CrossEntropyLoss=2.2687 | MulticlassF1Score=0.8915
+Batch-150: CrossEntropyLoss=2.2763 | MulticlassF1Score=0.8945
+Batch-165: CrossEntropyLoss=2.2746 | MulticlassF1Score=0.8962
+Batch-180: CrossEntropyLoss=2.2687 | MulticlassF1Score=0.8978
+Batch-195: CrossEntropyLoss=2.2679 | MulticlassF1Score=0.8994
+Batch-210: CrossEntropyLoss=2.2747 | MulticlassF1Score=0.9007
+Batch-225: CrossEntropyLoss=2.2724 | MulticlassF1Score=0.9025
+Batch-226: CrossEntropyLoss=2.2691 | MulticlassF1Score=0.9026
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2812 | MulticlassF1Score=0.9125
+Batch-30 : CrossEntropyLoss=2.2714 | MulticlassF1Score=0.9136
+Batch-45 : CrossEntropyLoss=2.2761 | MulticlassF1Score=0.9131
+Batch-60 : CrossEntropyLoss=2.2798 | MulticlassF1Score=0.9127
+Batch-63 : CrossEntropyLoss=2.2727 | MulticlassF1Score=0.9125
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2781 | Mean MulticlassF1Score = 0.8851
+Validation : Mean CrossEntropyLoss = 2.2753 | Mean MulticlassF1Score = 0.9133
+================================================================================
+
+EPOCH-15
+Training Step
+Batch-15 : CrossEntropyLoss=2.2680 | MulticlassF1Score=0.9197
+Batch-30 : CrossEntropyLoss=2.2687 | MulticlassF1Score=0.9189
+Batch-45 : CrossEntropyLoss=2.2708 | MulticlassF1Score=0.9200
+Batch-60 : CrossEntropyLoss=2.2651 | MulticlassF1Score=0.9214
+Batch-75 : CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9224
+Batch-90 : CrossEntropyLoss=2.2653 | MulticlassF1Score=0.9225
+Batch-105: CrossEntropyLoss=2.2696 | MulticlassF1Score=0.9233
+Batch-120: CrossEntropyLoss=2.2742 | MulticlassF1Score=0.9234
+Batch-135: CrossEntropyLoss=2.2746 | MulticlassF1Score=0.9233
+Batch-150: CrossEntropyLoss=2.2779 | MulticlassF1Score=0.9236
+Batch-165: CrossEntropyLoss=2.2760 | MulticlassF1Score=0.9238
+Batch-180: CrossEntropyLoss=2.2669 | MulticlassF1Score=0.9233
+Batch-195: CrossEntropyLoss=2.2723 | MulticlassF1Score=0.9236
+Batch-210: CrossEntropyLoss=2.2745 | MulticlassF1Score=0.9235
+Batch-225: CrossEntropyLoss=2.2718 | MulticlassF1Score=0.9237
+Batch-226: CrossEntropyLoss=2.2693 | MulticlassF1Score=0.9237
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2766 | MulticlassF1Score=0.9082
+Batch-30 : CrossEntropyLoss=2.2856 | MulticlassF1Score=0.9139
+Batch-45 : CrossEntropyLoss=2.2777 | MulticlassF1Score=0.9144
+Batch-60 : CrossEntropyLoss=2.2804 | MulticlassF1Score=0.9150
+Batch-63 : CrossEntropyLoss=2.2664 | MulticlassF1Score=0.9152
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2715 | Mean MulticlassF1Score = 0.9221
+Validation : Mean CrossEntropyLoss = 2.2743 | Mean MulticlassF1Score = 0.9121
+================================================================================
+
+EPOCH-16
+Training Step
+Batch-15 : CrossEntropyLoss=2.2705 | MulticlassF1Score=0.9287
+Batch-30 : CrossEntropyLoss=2.2684 | MulticlassF1Score=0.9271
+Batch-45 : CrossEntropyLoss=2.2676 | MulticlassF1Score=0.9274
+Batch-60 : CrossEntropyLoss=2.2734 | MulticlassF1Score=0.9274
+Batch-75 : CrossEntropyLoss=2.2669 | MulticlassF1Score=0.9274
+Batch-90 : CrossEntropyLoss=2.2733 | MulticlassF1Score=0.9272
+Batch-105: CrossEntropyLoss=2.2716 | MulticlassF1Score=0.9273
+Batch-120: CrossEntropyLoss=2.2711 | MulticlassF1Score=0.9274
+Batch-135: CrossEntropyLoss=2.2730 | MulticlassF1Score=0.9268
+Batch-150: CrossEntropyLoss=2.2719 | MulticlassF1Score=0.9273
+Batch-165: CrossEntropyLoss=2.2708 | MulticlassF1Score=0.9275
+Batch-180: CrossEntropyLoss=2.2711 | MulticlassF1Score=0.9274
+Batch-195: CrossEntropyLoss=2.2733 | MulticlassF1Score=0.9273
+Batch-210: CrossEntropyLoss=2.2760 | MulticlassF1Score=0.9270
+Batch-225: CrossEntropyLoss=2.2728 | MulticlassF1Score=0.9269
+Batch-226: CrossEntropyLoss=2.2673 | MulticlassF1Score=0.9269
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2721 | MulticlassF1Score=0.9152
+Batch-30 : CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9191
+Batch-45 : CrossEntropyLoss=2.2676 | MulticlassF1Score=0.9178
+Batch-60 : CrossEntropyLoss=2.2719 | MulticlassF1Score=0.9170
+Batch-63 : CrossEntropyLoss=2.2737 | MulticlassF1Score=0.9168
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2705 | Mean MulticlassF1Score = 0.9272
+Validation : Mean CrossEntropyLoss = 2.2737 | Mean MulticlassF1Score = 0.9178
+================================================================================
+
+EPOCH-17
+Training Step
+Batch-15 : CrossEntropyLoss=2.2721 | MulticlassF1Score=0.9261
+Batch-30 : CrossEntropyLoss=2.2713 | MulticlassF1Score=0.9262
+Batch-45 : CrossEntropyLoss=2.2739 | MulticlassF1Score=0.9262
+Batch-60 : CrossEntropyLoss=2.2717 | MulticlassF1Score=0.9281
+Batch-75 : CrossEntropyLoss=2.2690 | MulticlassF1Score=0.9278
+Batch-90 : CrossEntropyLoss=2.2659 | MulticlassF1Score=0.9286
+Batch-105: CrossEntropyLoss=2.2677 | MulticlassF1Score=0.9285
+Batch-120: CrossEntropyLoss=2.2648 | MulticlassF1Score=0.9292
+Batch-135: CrossEntropyLoss=2.2733 | MulticlassF1Score=0.9289
+Batch-150: CrossEntropyLoss=2.2719 | MulticlassF1Score=0.9286
+Batch-165: CrossEntropyLoss=2.2621 | MulticlassF1Score=0.9290
+Batch-180: CrossEntropyLoss=2.2667 | MulticlassF1Score=0.9289
+Batch-195: CrossEntropyLoss=2.2674 | MulticlassF1Score=0.9291
+Batch-210: CrossEntropyLoss=2.2701 | MulticlassF1Score=0.9288
+Batch-225: CrossEntropyLoss=2.2696 | MulticlassF1Score=0.9290
+Batch-226: CrossEntropyLoss=2.2706 | MulticlassF1Score=0.9290
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2700 | MulticlassF1Score=0.9204
+Batch-30 : CrossEntropyLoss=2.2684 | MulticlassF1Score=0.9193
+Batch-45 : CrossEntropyLoss=2.2730 | MulticlassF1Score=0.9186
+Batch-60 : CrossEntropyLoss=2.2734 | MulticlassF1Score=0.9186
+Batch-63 : CrossEntropyLoss=2.2695 | MulticlassF1Score=0.9188
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2697 | Mean MulticlassF1Score = 0.9281
+Validation : Mean CrossEntropyLoss = 2.2730 | Mean MulticlassF1Score = 0.9188
+================================================================================
+
+EPOCH-18
+Training Step
+Batch-15 : CrossEntropyLoss=2.2663 | MulticlassF1Score=0.9339
+Batch-30 : CrossEntropyLoss=2.2647 | MulticlassF1Score=0.9326
+Batch-45 : CrossEntropyLoss=2.2705 | MulticlassF1Score=0.9337
+Batch-60 : CrossEntropyLoss=2.2688 | MulticlassF1Score=0.9332
+Batch-75 : CrossEntropyLoss=2.2726 | MulticlassF1Score=0.9327
+Batch-90 : CrossEntropyLoss=2.2698 | MulticlassF1Score=0.9324
+Batch-105: CrossEntropyLoss=2.2694 | MulticlassF1Score=0.9335
+Batch-120: CrossEntropyLoss=2.2648 | MulticlassF1Score=0.9334
+Batch-135: CrossEntropyLoss=2.2680 | MulticlassF1Score=0.9334
+Batch-150: CrossEntropyLoss=2.2605 | MulticlassF1Score=0.9333
+Batch-165: CrossEntropyLoss=2.2620 | MulticlassF1Score=0.9329
+Batch-180: CrossEntropyLoss=2.2668 | MulticlassF1Score=0.9329
+Batch-195: CrossEntropyLoss=2.2633 | MulticlassF1Score=0.9333
+Batch-210: CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9335
+Batch-225: CrossEntropyLoss=2.2662 | MulticlassF1Score=0.9335
+Batch-226: CrossEntropyLoss=2.2726 | MulticlassF1Score=0.9335
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2738 | MulticlassF1Score=0.9217
+Batch-30 : CrossEntropyLoss=2.2685 | MulticlassF1Score=0.9208
+Batch-45 : CrossEntropyLoss=2.2703 | MulticlassF1Score=0.9221
+Batch-60 : CrossEntropyLoss=2.2706 | MulticlassF1Score=0.9223
+Batch-63 : CrossEntropyLoss=2.2712 | MulticlassF1Score=0.9228
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2683 | Mean MulticlassF1Score = 0.9331
+Validation : Mean CrossEntropyLoss = 2.2718 | Mean MulticlassF1Score = 0.9219
+================================================================================
+
+EPOCH-19
+Training Step
+Batch-15 : CrossEntropyLoss=2.2657 | MulticlassF1Score=0.9363
+Batch-30 : CrossEntropyLoss=2.2669 | MulticlassF1Score=0.9351
+Batch-45 : CrossEntropyLoss=2.2666 | MulticlassF1Score=0.9367
+Batch-60 : CrossEntropyLoss=2.2704 | MulticlassF1Score=0.9363
+Batch-75 : CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9372
+Batch-90 : CrossEntropyLoss=2.2725 | MulticlassF1Score=0.9364
+Batch-105: CrossEntropyLoss=2.2632 | MulticlassF1Score=0.9354
+Batch-120: CrossEntropyLoss=2.2685 | MulticlassF1Score=0.9356
+Batch-135: CrossEntropyLoss=2.2667 | MulticlassF1Score=0.9355
+Batch-150: CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9359
+Batch-165: CrossEntropyLoss=2.2633 | MulticlassF1Score=0.9362
+Batch-180: CrossEntropyLoss=2.2750 | MulticlassF1Score=0.9360
+Batch-195: CrossEntropyLoss=2.2676 | MulticlassF1Score=0.9359
+Batch-210: CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9361
+Batch-225: CrossEntropyLoss=2.2692 | MulticlassF1Score=0.9362
+Batch-226: CrossEntropyLoss=2.2641 | MulticlassF1Score=0.9362
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2688 | MulticlassF1Score=0.9238
+Batch-30 : CrossEntropyLoss=2.2763 | MulticlassF1Score=0.9221
+Batch-45 : CrossEntropyLoss=2.2713 | MulticlassF1Score=0.9222
+Batch-60 : CrossEntropyLoss=2.2715 | MulticlassF1Score=0.9221
+Batch-63 : CrossEntropyLoss=2.2647 | MulticlassF1Score=0.9220
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2674 | Mean MulticlassF1Score = 0.9360
+Validation : Mean CrossEntropyLoss = 2.2719 | Mean MulticlassF1Score = 0.9236
+================================================================================
+
+EPOCH-20
+Training Step
+Batch-15 : CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9397
+Batch-30 : CrossEntropyLoss=2.2692 | MulticlassF1Score=0.9404
+Batch-45 : CrossEntropyLoss=2.2649 | MulticlassF1Score=0.9389
+Batch-60 : CrossEntropyLoss=2.2670 | MulticlassF1Score=0.9386
+Batch-75 : CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9393
+Batch-90 : CrossEntropyLoss=2.2699 | MulticlassF1Score=0.9384
+Batch-105: CrossEntropyLoss=2.2604 | MulticlassF1Score=0.9384
+Batch-120: CrossEntropyLoss=2.2684 | MulticlassF1Score=0.9372
+Batch-135: CrossEntropyLoss=2.2662 | MulticlassF1Score=0.9372
+Batch-150: CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9372
+Batch-165: CrossEntropyLoss=2.2699 | MulticlassF1Score=0.9373
+Batch-180: CrossEntropyLoss=2.2656 | MulticlassF1Score=0.9374
+Batch-195: CrossEntropyLoss=2.2676 | MulticlassF1Score=0.9372
+Batch-210: CrossEntropyLoss=2.2684 | MulticlassF1Score=0.9370
+Batch-225: CrossEntropyLoss=2.2657 | MulticlassF1Score=0.9370
+Batch-226: CrossEntropyLoss=2.2722 | MulticlassF1Score=0.9370
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2704 | MulticlassF1Score=0.9229
+Batch-30 : CrossEntropyLoss=2.2703 | MulticlassF1Score=0.9222
+Batch-45 : CrossEntropyLoss=2.2735 | MulticlassF1Score=0.9221
+Batch-60 : CrossEntropyLoss=2.2712 | MulticlassF1Score=0.9224
+Batch-63 : CrossEntropyLoss=2.2656 | MulticlassF1Score=0.9228
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2671 | Mean MulticlassF1Score = 0.9381
+Validation : Mean CrossEntropyLoss = 2.2716 | Mean MulticlassF1Score = 0.9223
+================================================================================
+
+EPOCH-21
+Training Step
+Batch-15 : CrossEntropyLoss=2.2661 | MulticlassF1Score=0.9375
+Batch-30 : CrossEntropyLoss=2.2654 | MulticlassF1Score=0.9385
+Batch-45 : CrossEntropyLoss=2.2699 | MulticlassF1Score=0.9388
+Batch-60 : CrossEntropyLoss=2.2643 | MulticlassF1Score=0.9390
+Batch-75 : CrossEntropyLoss=2.2661 | MulticlassF1Score=0.9387
+Batch-90 : CrossEntropyLoss=2.2669 | MulticlassF1Score=0.9381
+Batch-105: CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9380
+Batch-120: CrossEntropyLoss=2.2685 | MulticlassF1Score=0.9379
+Batch-135: CrossEntropyLoss=2.2688 | MulticlassF1Score=0.9383
+Batch-150: CrossEntropyLoss=2.2702 | MulticlassF1Score=0.9382
+Batch-165: CrossEntropyLoss=2.2693 | MulticlassF1Score=0.9382
+Batch-180: CrossEntropyLoss=2.2677 | MulticlassF1Score=0.9382
+Batch-195: CrossEntropyLoss=2.2635 | MulticlassF1Score=0.9381
+Batch-210: CrossEntropyLoss=2.2702 | MulticlassF1Score=0.9380
+Batch-225: CrossEntropyLoss=2.2585 | MulticlassF1Score=0.9382
+Batch-226: CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9383
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2685 | MulticlassF1Score=0.9220
+Batch-30 : CrossEntropyLoss=2.2745 | MulticlassF1Score=0.9237
+Batch-45 : CrossEntropyLoss=2.2698 | MulticlassF1Score=0.9240
+Batch-60 : CrossEntropyLoss=2.2655 | MulticlassF1Score=0.9233
+Batch-63 : CrossEntropyLoss=2.2634 | MulticlassF1Score=0.9238
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2667 | Mean MulticlassF1Score = 0.9383
+Validation : Mean CrossEntropyLoss = 2.2715 | Mean MulticlassF1Score = 0.9239
+================================================================================
+
+EPOCH-22
+Training Step
+Batch-15 : CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9380
+Batch-30 : CrossEntropyLoss=2.2649 | MulticlassF1Score=0.9399
+Batch-45 : CrossEntropyLoss=2.2712 | MulticlassF1Score=0.9395
+Batch-60 : CrossEntropyLoss=2.2668 | MulticlassF1Score=0.9397
+Batch-75 : CrossEntropyLoss=2.2625 | MulticlassF1Score=0.9402
+Batch-90 : CrossEntropyLoss=2.2654 | MulticlassF1Score=0.9405
+Batch-105: CrossEntropyLoss=2.2633 | MulticlassF1Score=0.9401
+Batch-120: CrossEntropyLoss=2.2627 | MulticlassF1Score=0.9407
+Batch-135: CrossEntropyLoss=2.2724 | MulticlassF1Score=0.9402
+Batch-150: CrossEntropyLoss=2.2689 | MulticlassF1Score=0.9400
+Batch-165: CrossEntropyLoss=2.2632 | MulticlassF1Score=0.9400
+Batch-180: CrossEntropyLoss=2.2630 | MulticlassF1Score=0.9399
+Batch-195: CrossEntropyLoss=2.2700 | MulticlassF1Score=0.9398
+Batch-210: CrossEntropyLoss=2.2668 | MulticlassF1Score=0.9394
+Batch-225: CrossEntropyLoss=2.2700 | MulticlassF1Score=0.9392
+Batch-226: CrossEntropyLoss=2.2711 | MulticlassF1Score=0.9392
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2708 | MulticlassF1Score=0.9275
+Batch-30 : CrossEntropyLoss=2.2741 | MulticlassF1Score=0.9245
+Batch-45 : CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9248
+Batch-60 : CrossEntropyLoss=2.2734 | MulticlassF1Score=0.9239
+Batch-63 : CrossEntropyLoss=2.2750 | MulticlassF1Score=0.9235
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2663 | Mean MulticlassF1Score = 0.9402
+Validation : Mean CrossEntropyLoss = 2.2716 | Mean MulticlassF1Score = 0.9249
+================================================================================
+
+EPOCH-23
+Training Step
+Batch-15 : CrossEntropyLoss=2.2733 | MulticlassF1Score=0.9379
+Batch-30 : CrossEntropyLoss=2.2636 | MulticlassF1Score=0.9385
+Batch-45 : CrossEntropyLoss=2.2652 | MulticlassF1Score=0.9381
+Batch-60 : CrossEntropyLoss=2.2658 | MulticlassF1Score=0.9381
+Batch-75 : CrossEntropyLoss=2.2697 | MulticlassF1Score=0.9385
+Batch-90 : CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9382
+Batch-105: CrossEntropyLoss=2.2675 | MulticlassF1Score=0.9387
+Batch-120: CrossEntropyLoss=2.2650 | MulticlassF1Score=0.9392
+Batch-135: CrossEntropyLoss=2.2627 | MulticlassF1Score=0.9391
+Batch-150: CrossEntropyLoss=2.2784 | MulticlassF1Score=0.9390
+Batch-165: CrossEntropyLoss=2.2629 | MulticlassF1Score=0.9391
+Batch-180: CrossEntropyLoss=2.2636 | MulticlassF1Score=0.9389
+Batch-195: CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9391
+Batch-210: CrossEntropyLoss=2.2714 | MulticlassF1Score=0.9394
+Batch-225: CrossEntropyLoss=2.2680 | MulticlassF1Score=0.9394
+Batch-226: CrossEntropyLoss=2.2696 | MulticlassF1Score=0.9393
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2671 | MulticlassF1Score=0.9283
+Batch-30 : CrossEntropyLoss=2.2738 | MulticlassF1Score=0.9249
+Batch-45 : CrossEntropyLoss=2.2712 | MulticlassF1Score=0.9241
+Batch-60 : CrossEntropyLoss=2.2731 | MulticlassF1Score=0.9233
+Batch-63 : CrossEntropyLoss=2.2815 | MulticlassF1Score=0.9234
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2663 | Mean MulticlassF1Score = 0.9388
+Validation : Mean CrossEntropyLoss = 2.2715 | Mean MulticlassF1Score = 0.9251
+================================================================================
+
+EPOCH-24
+Training Step
+Batch-15 : CrossEntropyLoss=2.2648 | MulticlassF1Score=0.9438
+Batch-30 : CrossEntropyLoss=2.2669 | MulticlassF1Score=0.9427
+Batch-45 : CrossEntropyLoss=2.2658 | MulticlassF1Score=0.9410
+Batch-60 : CrossEntropyLoss=2.2690 | MulticlassF1Score=0.9416
+Batch-75 : CrossEntropyLoss=2.2763 | MulticlassF1Score=0.9414
+Batch-90 : CrossEntropyLoss=2.2666 | MulticlassF1Score=0.9414
+Batch-105: CrossEntropyLoss=2.2717 | MulticlassF1Score=0.9413
+Batch-120: CrossEntropyLoss=2.2700 | MulticlassF1Score=0.9412
+Batch-135: CrossEntropyLoss=2.2652 | MulticlassF1Score=0.9408
+Batch-150: CrossEntropyLoss=2.2680 | MulticlassF1Score=0.9405
+Batch-165: CrossEntropyLoss=2.2624 | MulticlassF1Score=0.9406
+Batch-180: CrossEntropyLoss=2.2653 | MulticlassF1Score=0.9406
+Batch-195: CrossEntropyLoss=2.2667 | MulticlassF1Score=0.9403
+Batch-210: CrossEntropyLoss=2.2679 | MulticlassF1Score=0.9403
+Batch-225: CrossEntropyLoss=2.2592 | MulticlassF1Score=0.9405
+Batch-226: CrossEntropyLoss=2.2669 | MulticlassF1Score=0.9404
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2742 | MulticlassF1Score=0.9243
+Batch-30 : CrossEntropyLoss=2.2675 | MulticlassF1Score=0.9245
+Batch-45 : CrossEntropyLoss=2.2776 | MulticlassF1Score=0.9225
+Batch-60 : CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9236
+Batch-63 : CrossEntropyLoss=2.2759 | MulticlassF1Score=0.9234
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2659 | Mean MulticlassF1Score = 0.9413
+Validation : Mean CrossEntropyLoss = 2.2715 | Mean MulticlassF1Score = 0.9238
+================================================================================
+
+EPOCH-25
+Training Step
+Batch-15 : CrossEntropyLoss=2.2608 | MulticlassF1Score=0.9443
+Batch-30 : CrossEntropyLoss=2.2707 | MulticlassF1Score=0.9421
+Batch-45 : CrossEntropyLoss=2.2675 | MulticlassF1Score=0.9415
+Batch-60 : CrossEntropyLoss=2.2663 | MulticlassF1Score=0.9408
+Batch-75 : CrossEntropyLoss=2.2635 | MulticlassF1Score=0.9408
+Batch-90 : CrossEntropyLoss=2.2659 | MulticlassF1Score=0.9413
+Batch-105: CrossEntropyLoss=2.2667 | MulticlassF1Score=0.9417
+Batch-120: CrossEntropyLoss=2.2726 | MulticlassF1Score=0.9413
+Batch-135: CrossEntropyLoss=2.2632 | MulticlassF1Score=0.9412
+Batch-150: CrossEntropyLoss=2.2675 | MulticlassF1Score=0.9415
+Batch-165: CrossEntropyLoss=2.2670 | MulticlassF1Score=0.9412
+Batch-180: CrossEntropyLoss=2.2674 | MulticlassF1Score=0.9412
+Batch-195: CrossEntropyLoss=2.2633 | MulticlassF1Score=0.9411
+Batch-210: CrossEntropyLoss=2.2679 | MulticlassF1Score=0.9411
+Batch-225: CrossEntropyLoss=2.2618 | MulticlassF1Score=0.9411
+Batch-226: CrossEntropyLoss=2.2650 | MulticlassF1Score=0.9411
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2719 | MulticlassF1Score=0.9162
+Batch-30 : CrossEntropyLoss=2.2670 | MulticlassF1Score=0.9202
+Batch-45 : CrossEntropyLoss=2.2698 | MulticlassF1Score=0.9215
+Batch-60 : CrossEntropyLoss=2.2675 | MulticlassF1Score=0.9224
+Batch-63 : CrossEntropyLoss=2.2640 | MulticlassF1Score=0.9230
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2657 | Mean MulticlassF1Score = 0.9415
+Validation : Mean CrossEntropyLoss = 2.2715 | Mean MulticlassF1Score = 0.9191
+================================================================================
+
+EPOCH-26
+Training Step
+Batch-15 : CrossEntropyLoss=2.2675 | MulticlassF1Score=0.9399
+Batch-30 : CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9420
+Batch-45 : CrossEntropyLoss=2.2631 | MulticlassF1Score=0.9411
+Batch-60 : CrossEntropyLoss=2.2647 | MulticlassF1Score=0.9412
+Batch-75 : CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9414
+Batch-90 : CrossEntropyLoss=2.2660 | MulticlassF1Score=0.9417
+Batch-105: CrossEntropyLoss=2.2630 | MulticlassF1Score=0.9422
+Batch-120: CrossEntropyLoss=2.2623 | MulticlassF1Score=0.9421
+Batch-135: CrossEntropyLoss=2.2677 | MulticlassF1Score=0.9423
+Batch-150: CrossEntropyLoss=2.2618 | MulticlassF1Score=0.9421
+Batch-165: CrossEntropyLoss=2.2658 | MulticlassF1Score=0.9418
+Batch-180: CrossEntropyLoss=2.2670 | MulticlassF1Score=0.9417
+Batch-195: CrossEntropyLoss=2.2667 | MulticlassF1Score=0.9415
+Batch-210: CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9415
+Batch-225: CrossEntropyLoss=2.2648 | MulticlassF1Score=0.9415
+Batch-226: CrossEntropyLoss=2.2621 | MulticlassF1Score=0.9415
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2738 | MulticlassF1Score=0.9220
+Batch-30 : CrossEntropyLoss=2.2715 | MulticlassF1Score=0.9236
+Batch-45 : CrossEntropyLoss=2.2704 | MulticlassF1Score=0.9250
+Batch-60 : CrossEntropyLoss=2.2670 | MulticlassF1Score=0.9244
+Batch-63 : CrossEntropyLoss=2.2740 | MulticlassF1Score=0.9235
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2656 | Mean MulticlassF1Score = 0.9416
+Validation : Mean CrossEntropyLoss = 2.2714 | Mean MulticlassF1Score = 0.9231
+================================================================================
+
+EPOCH-27
+Training Step
+Batch-15 : CrossEntropyLoss=2.2670 | MulticlassF1Score=0.9417
+Batch-30 : CrossEntropyLoss=2.2648 | MulticlassF1Score=0.9429
+Batch-45 : CrossEntropyLoss=2.2643 | MulticlassF1Score=0.9435
+Batch-60 : CrossEntropyLoss=2.2647 | MulticlassF1Score=0.9431
+Batch-75 : CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9425
+Batch-90 : CrossEntropyLoss=2.2689 | MulticlassF1Score=0.9421
+Batch-105: CrossEntropyLoss=2.2618 | MulticlassF1Score=0.9418
+Batch-120: CrossEntropyLoss=2.2659 | MulticlassF1Score=0.9414
+Batch-135: CrossEntropyLoss=2.2683 | MulticlassF1Score=0.9413
+Batch-150: CrossEntropyLoss=2.2648 | MulticlassF1Score=0.9413
+Batch-165: CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9413
+Batch-180: CrossEntropyLoss=2.2649 | MulticlassF1Score=0.9413
+Batch-195: CrossEntropyLoss=2.2657 | MulticlassF1Score=0.9415
+Batch-210: CrossEntropyLoss=2.2655 | MulticlassF1Score=0.9416
+Batch-225: CrossEntropyLoss=2.2600 | MulticlassF1Score=0.9416
+Batch-226: CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9417
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2715 | MulticlassF1Score=0.9208
+Batch-30 : CrossEntropyLoss=2.2719 | MulticlassF1Score=0.9246
+Batch-45 : CrossEntropyLoss=2.2684 | MulticlassF1Score=0.9241
+Batch-60 : CrossEntropyLoss=2.2685 | MulticlassF1Score=0.9229
+Batch-63 : CrossEntropyLoss=2.2716 | MulticlassF1Score=0.9230
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2655 | Mean MulticlassF1Score = 0.9422
+Validation : Mean CrossEntropyLoss = 2.2715 | Mean MulticlassF1Score = 0.9218
+================================================================================
+
+EPOCH-28
+Training Step
+Batch-15 : CrossEntropyLoss=2.2673 | MulticlassF1Score=0.9425
+Batch-30 : CrossEntropyLoss=2.2639 | MulticlassF1Score=0.9416
+Batch-45 : CrossEntropyLoss=2.2614 | MulticlassF1Score=0.9420
+Batch-60 : CrossEntropyLoss=2.2656 | MulticlassF1Score=0.9423
+Batch-75 : CrossEntropyLoss=2.2635 | MulticlassF1Score=0.9424
+Batch-90 : CrossEntropyLoss=2.2658 | MulticlassF1Score=0.9426
+Batch-105: CrossEntropyLoss=2.2619 | MulticlassF1Score=0.9427
+Batch-120: CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9421
+Batch-135: CrossEntropyLoss=2.2664 | MulticlassF1Score=0.9421
+Batch-150: CrossEntropyLoss=2.2640 | MulticlassF1Score=0.9419
+Batch-165: CrossEntropyLoss=2.2673 | MulticlassF1Score=0.9415
+Batch-180: CrossEntropyLoss=2.2694 | MulticlassF1Score=0.9413
+Batch-195: CrossEntropyLoss=2.2618 | MulticlassF1Score=0.9414
+Batch-210: CrossEntropyLoss=2.2642 | MulticlassF1Score=0.9413
+Batch-225: CrossEntropyLoss=2.2673 | MulticlassF1Score=0.9413
+Batch-226: CrossEntropyLoss=2.2629 | MulticlassF1Score=0.9414
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2746 | MulticlassF1Score=0.9213
+Batch-30 : CrossEntropyLoss=2.2708 | MulticlassF1Score=0.9215
+Batch-45 : CrossEntropyLoss=2.2715 | MulticlassF1Score=0.9231
+Batch-60 : CrossEntropyLoss=2.2699 | MulticlassF1Score=0.9235
+Batch-63 : CrossEntropyLoss=2.2744 | MulticlassF1Score=0.9234
+
+Huft 😥! Model not improved.
+
+Training   : Mean CrossEntropyLoss = 2.2656 | Mean MulticlassF1Score = 0.9419
+Validation : Mean CrossEntropyLoss = 2.2714 | Mean MulticlassF1Score = 0.9212
+Patience = 1/50❗
+================================================================================
+
+EPOCH-29
+Training Step
+Batch-15 : CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9401
+Batch-30 : CrossEntropyLoss=2.2631 | MulticlassF1Score=0.9401
+Batch-45 : CrossEntropyLoss=2.2650 | MulticlassF1Score=0.9409
+Batch-60 : CrossEntropyLoss=2.2638 | MulticlassF1Score=0.9416
+Batch-75 : CrossEntropyLoss=2.2671 | MulticlassF1Score=0.9411
+Batch-90 : CrossEntropyLoss=2.2718 | MulticlassF1Score=0.9413
+Batch-105: CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9415
+Batch-120: CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9417
+Batch-135: CrossEntropyLoss=2.2646 | MulticlassF1Score=0.9415
+Batch-150: CrossEntropyLoss=2.2671 | MulticlassF1Score=0.9412
+Batch-165: CrossEntropyLoss=2.2659 | MulticlassF1Score=0.9416
+Batch-180: CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9420
+Batch-195: CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9421
+Batch-210: CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9423
+Batch-225: CrossEntropyLoss=2.2673 | MulticlassF1Score=0.9420
+Batch-226: CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9421
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2718 | MulticlassF1Score=0.9237
+Batch-30 : CrossEntropyLoss=2.2729 | MulticlassF1Score=0.9237
+Batch-45 : CrossEntropyLoss=2.2724 | MulticlassF1Score=0.9243
+Batch-60 : CrossEntropyLoss=2.2717 | MulticlassF1Score=0.9239
+Batch-63 : CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9239
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2654 | Mean MulticlassF1Score = 0.9412
+Validation : Mean CrossEntropyLoss = 2.2712 | Mean MulticlassF1Score = 0.9240
+================================================================================
+
+EPOCH-30
+Training Step
+Batch-15 : CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9424
+Batch-30 : CrossEntropyLoss=2.2683 | MulticlassF1Score=0.9410
+Batch-45 : CrossEntropyLoss=2.2660 | MulticlassF1Score=0.9413
+Batch-60 : CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9413
+Batch-75 : CrossEntropyLoss=2.2670 | MulticlassF1Score=0.9414
+Batch-90 : CrossEntropyLoss=2.2684 | MulticlassF1Score=0.9411
+Batch-105: CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9417
+Batch-120: CrossEntropyLoss=2.2624 | MulticlassF1Score=0.9419
+Batch-135: CrossEntropyLoss=2.2673 | MulticlassF1Score=0.9423
+Batch-150: CrossEntropyLoss=2.2616 | MulticlassF1Score=0.9424
+Batch-165: CrossEntropyLoss=2.2704 | MulticlassF1Score=0.9426
+Batch-180: CrossEntropyLoss=2.2653 | MulticlassF1Score=0.9424
+Batch-195: CrossEntropyLoss=2.2671 | MulticlassF1Score=0.9424
+Batch-210: CrossEntropyLoss=2.2666 | MulticlassF1Score=0.9425
+Batch-225: CrossEntropyLoss=2.2700 | MulticlassF1Score=0.9423
+Batch-226: CrossEntropyLoss=2.2640 | MulticlassF1Score=0.9423
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2781 | MulticlassF1Score=0.9203
+Batch-30 : CrossEntropyLoss=2.2702 | MulticlassF1Score=0.9234
+Batch-45 : CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9238
+Batch-60 : CrossEntropyLoss=2.2727 | MulticlassF1Score=0.9229
+Batch-63 : CrossEntropyLoss=2.2691 | MulticlassF1Score=0.9229
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2653 | Mean MulticlassF1Score = 0.9420
+Validation : Mean CrossEntropyLoss = 2.2715 | Mean MulticlassF1Score = 0.9219
+================================================================================
+
+EPOCH-31
+Training Step
+Batch-15 : CrossEntropyLoss=2.2605 | MulticlassF1Score=0.9444
+Batch-30 : CrossEntropyLoss=2.2679 | MulticlassF1Score=0.9420
+Batch-45 : CrossEntropyLoss=2.2657 | MulticlassF1Score=0.9433
+Batch-60 : CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9432
+Batch-75 : CrossEntropyLoss=2.2628 | MulticlassF1Score=0.9432
+Batch-90 : CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9427
+Batch-105: CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9427
+Batch-120: CrossEntropyLoss=2.2660 | MulticlassF1Score=0.9429
+Batch-135: CrossEntropyLoss=2.2625 | MulticlassF1Score=0.9432
+Batch-150: CrossEntropyLoss=2.2677 | MulticlassF1Score=0.9434
+Batch-165: CrossEntropyLoss=2.2634 | MulticlassF1Score=0.9430
+Batch-180: CrossEntropyLoss=2.2667 | MulticlassF1Score=0.9431
+Batch-195: CrossEntropyLoss=2.2670 | MulticlassF1Score=0.9430
+Batch-210: CrossEntropyLoss=2.2660 | MulticlassF1Score=0.9425
+Batch-225: CrossEntropyLoss=2.2671 | MulticlassF1Score=0.9422
+Batch-226: CrossEntropyLoss=2.2707 | MulticlassF1Score=0.9422
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2746 | MulticlassF1Score=0.9193
+Batch-30 : CrossEntropyLoss=2.2771 | MulticlassF1Score=0.9222
+Batch-45 : CrossEntropyLoss=2.2774 | MulticlassF1Score=0.9220
+Batch-60 : CrossEntropyLoss=2.2758 | MulticlassF1Score=0.9225
+Batch-63 : CrossEntropyLoss=2.2813 | MulticlassF1Score=0.9223
+
+Huft 😥! Model not improved.
+
+Training   : Mean CrossEntropyLoss = 2.2654 | Mean MulticlassF1Score = 0.9432
+Validation : Mean CrossEntropyLoss = 2.2719 | Mean MulticlassF1Score = 0.9211
+Patience = 2/50❗
+================================================================================
+
+EPOCH-32
+Training Step
+Batch-15 : CrossEntropyLoss=2.2682 | MulticlassF1Score=0.9443
+Batch-30 : CrossEntropyLoss=2.2680 | MulticlassF1Score=0.9414
+Batch-45 : CrossEntropyLoss=2.2693 | MulticlassF1Score=0.9404
+Batch-60 : CrossEntropyLoss=2.2690 | MulticlassF1Score=0.9399
+Batch-75 : CrossEntropyLoss=2.2666 | MulticlassF1Score=0.9387
+Batch-90 : CrossEntropyLoss=2.2656 | MulticlassF1Score=0.9382
+Batch-105: CrossEntropyLoss=2.2686 | MulticlassF1Score=0.9389
+Batch-120: CrossEntropyLoss=2.2659 | MulticlassF1Score=0.9392
+Batch-135: CrossEntropyLoss=2.2640 | MulticlassF1Score=0.9394
+Batch-150: CrossEntropyLoss=2.2632 | MulticlassF1Score=0.9397
+Batch-165: CrossEntropyLoss=2.2675 | MulticlassF1Score=0.9395
+Batch-180: CrossEntropyLoss=2.2671 | MulticlassF1Score=0.9400
+Batch-195: CrossEntropyLoss=2.2642 | MulticlassF1Score=0.9399
+Batch-210: CrossEntropyLoss=2.2642 | MulticlassF1Score=0.9399
+Batch-225: CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9398
+Batch-226: CrossEntropyLoss=2.2775 | MulticlassF1Score=0.9398
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2694 | MulticlassF1Score=0.9255
+Batch-30 : CrossEntropyLoss=2.2679 | MulticlassF1Score=0.9246
+Batch-45 : CrossEntropyLoss=2.2688 | MulticlassF1Score=0.9243
+Batch-60 : CrossEntropyLoss=2.2800 | MulticlassF1Score=0.9235
+Batch-63 : CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9237
+
+Huft 😥! Model not improved.
+
+Training   : Mean CrossEntropyLoss = 2.2688 | Mean MulticlassF1Score = 0.9404
+Validation : Mean CrossEntropyLoss = 2.2713 | Mean MulticlassF1Score = 0.9250
+Patience = 3/50❗
+================================================================================
+
+EPOCH-33
+Training Step
+Batch-15 : CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9449
+Batch-30 : CrossEntropyLoss=2.2656 | MulticlassF1Score=0.9423
+Batch-45 : CrossEntropyLoss=2.2649 | MulticlassF1Score=0.9434
+Batch-60 : CrossEntropyLoss=2.2667 | MulticlassF1Score=0.9423
+Batch-75 : CrossEntropyLoss=2.2712 | MulticlassF1Score=0.9423
+Batch-90 : CrossEntropyLoss=2.2652 | MulticlassF1Score=0.9418
+Batch-105: CrossEntropyLoss=2.2675 | MulticlassF1Score=0.9418
+Batch-120: CrossEntropyLoss=2.2653 | MulticlassF1Score=0.9424
+Batch-135: CrossEntropyLoss=2.2624 | MulticlassF1Score=0.9424
+Batch-150: CrossEntropyLoss=2.2682 | MulticlassF1Score=0.9425
+Batch-165: CrossEntropyLoss=2.2651 | MulticlassF1Score=0.9425
+Batch-180: CrossEntropyLoss=2.2634 | MulticlassF1Score=0.9422
+Batch-195: CrossEntropyLoss=2.2652 | MulticlassF1Score=0.9424
+Batch-210: CrossEntropyLoss=2.2639 | MulticlassF1Score=0.9425
+Batch-225: CrossEntropyLoss=2.2647 | MulticlassF1Score=0.9424
+Batch-226: CrossEntropyLoss=2.2634 | MulticlassF1Score=0.9424
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2695 | MulticlassF1Score=0.9244
+Batch-30 : CrossEntropyLoss=2.2720 | MulticlassF1Score=0.9236
+Batch-45 : CrossEntropyLoss=2.2750 | MulticlassF1Score=0.9238
+Batch-60 : CrossEntropyLoss=2.2726 | MulticlassF1Score=0.9236
+Batch-63 : CrossEntropyLoss=2.2655 | MulticlassF1Score=0.9238
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2653 | Mean MulticlassF1Score = 0.9425
+Validation : Mean CrossEntropyLoss = 2.2712 | Mean MulticlassF1Score = 0.9237
+================================================================================
+
+EPOCH-34
+Training Step
+Batch-15 : CrossEntropyLoss=2.2614 | MulticlassF1Score=0.9432
+Batch-30 : CrossEntropyLoss=2.2635 | MulticlassF1Score=0.9421
+Batch-45 : CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9411
+Batch-60 : CrossEntropyLoss=2.2581 | MulticlassF1Score=0.9415
+Batch-75 : CrossEntropyLoss=2.2632 | MulticlassF1Score=0.9424
+Batch-90 : CrossEntropyLoss=2.2702 | MulticlassF1Score=0.9430
+Batch-105: CrossEntropyLoss=2.2610 | MulticlassF1Score=0.9435
+Batch-120: CrossEntropyLoss=2.2592 | MulticlassF1Score=0.9451
+Batch-135: CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9467
+Batch-150: CrossEntropyLoss=2.2627 | MulticlassF1Score=0.9480
+Batch-165: CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9492
+Batch-180: CrossEntropyLoss=2.2609 | MulticlassF1Score=0.9502
+Batch-195: CrossEntropyLoss=2.2653 | MulticlassF1Score=0.9510
+Batch-210: CrossEntropyLoss=2.2588 | MulticlassF1Score=0.9518
+Batch-225: CrossEntropyLoss=2.2603 | MulticlassF1Score=0.9526
+Batch-226: CrossEntropyLoss=2.2608 | MulticlassF1Score=0.9526
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2601 | MulticlassF1Score=0.9477
+Batch-30 : CrossEntropyLoss=2.2602 | MulticlassF1Score=0.9436
+Batch-45 : CrossEntropyLoss=2.2634 | MulticlassF1Score=0.9433
+Batch-60 : CrossEntropyLoss=2.2680 | MulticlassF1Score=0.9436
+Batch-63 : CrossEntropyLoss=2.2598 | MulticlassF1Score=0.9438
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2622 | Mean MulticlassF1Score = 0.9458
+Validation : Mean CrossEntropyLoss = 2.2651 | Mean MulticlassF1Score = 0.9448
+================================================================================
+
+EPOCH-35
+Training Step
+Batch-15 : CrossEntropyLoss=2.2536 | MulticlassF1Score=0.9651
+Batch-30 : CrossEntropyLoss=2.2572 | MulticlassF1Score=0.9638
+Batch-45 : CrossEntropyLoss=2.2572 | MulticlassF1Score=0.9640
+Batch-60 : CrossEntropyLoss=2.2607 | MulticlassF1Score=0.9647
+Batch-75 : CrossEntropyLoss=2.2558 | MulticlassF1Score=0.9642
+Batch-90 : CrossEntropyLoss=2.2581 | MulticlassF1Score=0.9642
+Batch-105: CrossEntropyLoss=2.2603 | MulticlassF1Score=0.9636
+Batch-120: CrossEntropyLoss=2.2609 | MulticlassF1Score=0.9633
+Batch-135: CrossEntropyLoss=2.2571 | MulticlassF1Score=0.9634
+Batch-150: CrossEntropyLoss=2.2569 | MulticlassF1Score=0.9633
+Batch-165: CrossEntropyLoss=2.2644 | MulticlassF1Score=0.9632
+Batch-180: CrossEntropyLoss=2.2596 | MulticlassF1Score=0.9631
+Batch-195: CrossEntropyLoss=2.2587 | MulticlassF1Score=0.9630
+Batch-210: CrossEntropyLoss=2.2609 | MulticlassF1Score=0.9631
+Batch-225: CrossEntropyLoss=2.2596 | MulticlassF1Score=0.9631
+Batch-226: CrossEntropyLoss=2.2601 | MulticlassF1Score=0.9631
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2640 | MulticlassF1Score=0.9438
+Batch-30 : CrossEntropyLoss=2.2618 | MulticlassF1Score=0.9453
+Batch-45 : CrossEntropyLoss=2.2693 | MulticlassF1Score=0.9450
+Batch-60 : CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9441
+Batch-63 : CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9439
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2589 | Mean MulticlassF1Score = 0.9637
+Validation : Mean CrossEntropyLoss = 2.2649 | Mean MulticlassF1Score = 0.9445
+================================================================================
+
+EPOCH-36
+Training Step
+Batch-15 : CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9660
+Batch-30 : CrossEntropyLoss=2.2557 | MulticlassF1Score=0.9639
+Batch-45 : CrossEntropyLoss=2.2604 | MulticlassF1Score=0.9641
+Batch-60 : CrossEntropyLoss=2.2585 | MulticlassF1Score=0.9638
+Batch-75 : CrossEntropyLoss=2.2595 | MulticlassF1Score=0.9639
+Batch-90 : CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9638
+Batch-105: CrossEntropyLoss=2.2548 | MulticlassF1Score=0.9639
+Batch-120: CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9637
+Batch-135: CrossEntropyLoss=2.2594 | MulticlassF1Score=0.9634
+Batch-150: CrossEntropyLoss=2.2587 | MulticlassF1Score=0.9636
+Batch-165: CrossEntropyLoss=2.2561 | MulticlassF1Score=0.9637
+Batch-180: CrossEntropyLoss=2.2564 | MulticlassF1Score=0.9637
+Batch-195: CrossEntropyLoss=2.2579 | MulticlassF1Score=0.9636
+Batch-210: CrossEntropyLoss=2.2588 | MulticlassF1Score=0.9637
+Batch-225: CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9640
+Batch-226: CrossEntropyLoss=2.2585 | MulticlassF1Score=0.9640
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2657 | MulticlassF1Score=0.9461
+Batch-30 : CrossEntropyLoss=2.2664 | MulticlassF1Score=0.9450
+Batch-45 : CrossEntropyLoss=2.2613 | MulticlassF1Score=0.9450
+Batch-60 : CrossEntropyLoss=2.2631 | MulticlassF1Score=0.9446
+Batch-63 : CrossEntropyLoss=2.2653 | MulticlassF1Score=0.9447
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2586 | Mean MulticlassF1Score = 0.9639
+Validation : Mean CrossEntropyLoss = 2.2649 | Mean MulticlassF1Score = 0.9454
+================================================================================
+
+EPOCH-37
+Training Step
+Batch-15 : CrossEntropyLoss=2.2560 | MulticlassF1Score=0.9666
+Batch-30 : CrossEntropyLoss=2.2564 | MulticlassF1Score=0.9658
+Batch-45 : CrossEntropyLoss=2.2583 | MulticlassF1Score=0.9647
+Batch-60 : CrossEntropyLoss=2.2583 | MulticlassF1Score=0.9650
+Batch-75 : CrossEntropyLoss=2.2602 | MulticlassF1Score=0.9647
+Batch-90 : CrossEntropyLoss=2.2580 | MulticlassF1Score=0.9643
+Batch-105: CrossEntropyLoss=2.2560 | MulticlassF1Score=0.9647
+Batch-120: CrossEntropyLoss=2.2562 | MulticlassF1Score=0.9650
+Batch-135: CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9647
+Batch-150: CrossEntropyLoss=2.2587 | MulticlassF1Score=0.9649
+Batch-165: CrossEntropyLoss=2.2583 | MulticlassF1Score=0.9648
+Batch-180: CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9645
+Batch-195: CrossEntropyLoss=2.2608 | MulticlassF1Score=0.9643
+Batch-210: CrossEntropyLoss=2.2594 | MulticlassF1Score=0.9641
+Batch-225: CrossEntropyLoss=2.2616 | MulticlassF1Score=0.9643
+Batch-226: CrossEntropyLoss=2.2579 | MulticlassF1Score=0.9643
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2632 | MulticlassF1Score=0.9442
+Batch-30 : CrossEntropyLoss=2.2695 | MulticlassF1Score=0.9448
+Batch-45 : CrossEntropyLoss=2.2688 | MulticlassF1Score=0.9442
+Batch-60 : CrossEntropyLoss=2.2653 | MulticlassF1Score=0.9442
+Batch-63 : CrossEntropyLoss=2.2601 | MulticlassF1Score=0.9442
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2584 | Mean MulticlassF1Score = 0.9647
+Validation : Mean CrossEntropyLoss = 2.2649 | Mean MulticlassF1Score = 0.9443
+================================================================================
+
+EPOCH-38
+Training Step
+Batch-15 : CrossEntropyLoss=2.2600 | MulticlassF1Score=0.9657
+Batch-30 : CrossEntropyLoss=2.2542 | MulticlassF1Score=0.9643
+Batch-45 : CrossEntropyLoss=2.2645 | MulticlassF1Score=0.9644
+Batch-60 : CrossEntropyLoss=2.2573 | MulticlassF1Score=0.9653
+Batch-75 : CrossEntropyLoss=2.2623 | MulticlassF1Score=0.9647
+Batch-90 : CrossEntropyLoss=2.2564 | MulticlassF1Score=0.9645
+Batch-105: CrossEntropyLoss=2.2551 | MulticlassF1Score=0.9646
+Batch-120: CrossEntropyLoss=2.2606 | MulticlassF1Score=0.9646
+Batch-135: CrossEntropyLoss=2.2557 | MulticlassF1Score=0.9647
+Batch-150: CrossEntropyLoss=2.2575 | MulticlassF1Score=0.9647
+Batch-165: CrossEntropyLoss=2.2598 | MulticlassF1Score=0.9646
+Batch-180: CrossEntropyLoss=2.2574 | MulticlassF1Score=0.9647
+Batch-195: CrossEntropyLoss=2.2596 | MulticlassF1Score=0.9648
+Batch-210: CrossEntropyLoss=2.2558 | MulticlassF1Score=0.9649
+Batch-225: CrossEntropyLoss=2.2575 | MulticlassF1Score=0.9650
+Batch-226: CrossEntropyLoss=2.2537 | MulticlassF1Score=0.9651
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2641 | MulticlassF1Score=0.9454
+Batch-30 : CrossEntropyLoss=2.2678 | MulticlassF1Score=0.9466
+Batch-45 : CrossEntropyLoss=2.2668 | MulticlassF1Score=0.9464
+Batch-60 : CrossEntropyLoss=2.2634 | MulticlassF1Score=0.9460
+Batch-63 : CrossEntropyLoss=2.2660 | MulticlassF1Score=0.9461
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2582 | Mean MulticlassF1Score = 0.9648
+Validation : Mean CrossEntropyLoss = 2.2643 | Mean MulticlassF1Score = 0.9462
+================================================================================
+
+EPOCH-39
+Training Step
+Batch-15 : CrossEntropyLoss=2.2565 | MulticlassF1Score=0.9656
+Batch-30 : CrossEntropyLoss=2.2568 | MulticlassF1Score=0.9664
+Batch-45 : CrossEntropyLoss=2.2611 | MulticlassF1Score=0.9668
+Batch-60 : CrossEntropyLoss=2.2599 | MulticlassF1Score=0.9674
+Batch-75 : CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9674
+Batch-90 : CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9670
+Batch-105: CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9674
+Batch-120: CrossEntropyLoss=2.2609 | MulticlassF1Score=0.9675
+Batch-135: CrossEntropyLoss=2.2581 | MulticlassF1Score=0.9674
+Batch-150: CrossEntropyLoss=2.2549 | MulticlassF1Score=0.9676
+Batch-165: CrossEntropyLoss=2.2562 | MulticlassF1Score=0.9676
+Batch-180: CrossEntropyLoss=2.2570 | MulticlassF1Score=0.9675
+Batch-195: CrossEntropyLoss=2.2557 | MulticlassF1Score=0.9675
+Batch-210: CrossEntropyLoss=2.2598 | MulticlassF1Score=0.9673
+Batch-225: CrossEntropyLoss=2.2590 | MulticlassF1Score=0.9674
+Batch-226: CrossEntropyLoss=2.2548 | MulticlassF1Score=0.9674
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2644 | MulticlassF1Score=0.9477
+Batch-30 : CrossEntropyLoss=2.2659 | MulticlassF1Score=0.9463
+Batch-45 : CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9475
+Batch-60 : CrossEntropyLoss=2.2681 | MulticlassF1Score=0.9468
+Batch-63 : CrossEntropyLoss=2.2649 | MulticlassF1Score=0.9466
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2575 | Mean MulticlassF1Score = 0.9673
+Validation : Mean CrossEntropyLoss = 2.2641 | Mean MulticlassF1Score = 0.9483
+================================================================================
+
+EPOCH-40
+Training Step
+Batch-15 : CrossEntropyLoss=2.2548 | MulticlassF1Score=0.9692
+Batch-30 : CrossEntropyLoss=2.2572 | MulticlassF1Score=0.9686
+Batch-45 : CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9679
+Batch-60 : CrossEntropyLoss=2.2545 | MulticlassF1Score=0.9673
+Batch-75 : CrossEntropyLoss=2.2586 | MulticlassF1Score=0.9680
+Batch-90 : CrossEntropyLoss=2.2529 | MulticlassF1Score=0.9682
+Batch-105: CrossEntropyLoss=2.2587 | MulticlassF1Score=0.9681
+Batch-120: CrossEntropyLoss=2.2541 | MulticlassF1Score=0.9680
+Batch-135: CrossEntropyLoss=2.2545 | MulticlassF1Score=0.9679
+Batch-150: CrossEntropyLoss=2.2587 | MulticlassF1Score=0.9678
+Batch-165: CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9673
+Batch-180: CrossEntropyLoss=2.2592 | MulticlassF1Score=0.9673
+Batch-195: CrossEntropyLoss=2.2567 | MulticlassF1Score=0.9674
+Batch-210: CrossEntropyLoss=2.2579 | MulticlassF1Score=0.9672
+Batch-225: CrossEntropyLoss=2.2542 | MulticlassF1Score=0.9674
+Batch-226: CrossEntropyLoss=2.2615 | MulticlassF1Score=0.9674
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2579 | MulticlassF1Score=0.9439
+Batch-30 : CrossEntropyLoss=2.2620 | MulticlassF1Score=0.9458
+Batch-45 : CrossEntropyLoss=2.2642 | MulticlassF1Score=0.9459
+Batch-60 : CrossEntropyLoss=2.2709 | MulticlassF1Score=0.9465
+Batch-63 : CrossEntropyLoss=2.2626 | MulticlassF1Score=0.9467
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2575 | Mean MulticlassF1Score = 0.9680
+Validation : Mean CrossEntropyLoss = 2.2641 | Mean MulticlassF1Score = 0.9453
+================================================================================
+
+EPOCH-41
+Training Step
+Batch-15 : CrossEntropyLoss=2.2638 | MulticlassF1Score=0.9661
+Batch-30 : CrossEntropyLoss=2.2558 | MulticlassF1Score=0.9664
+Batch-45 : CrossEntropyLoss=2.2553 | MulticlassF1Score=0.9680
+Batch-60 : CrossEntropyLoss=2.2593 | MulticlassF1Score=0.9689
+Batch-75 : CrossEntropyLoss=2.2602 | MulticlassF1Score=0.9686
+Batch-90 : CrossEntropyLoss=2.2521 | MulticlassF1Score=0.9682
+Batch-105: CrossEntropyLoss=2.2539 | MulticlassF1Score=0.9680
+Batch-120: CrossEntropyLoss=2.2556 | MulticlassF1Score=0.9681
+Batch-135: CrossEntropyLoss=2.2583 | MulticlassF1Score=0.9679
+Batch-150: CrossEntropyLoss=2.2573 | MulticlassF1Score=0.9676
+Batch-165: CrossEntropyLoss=2.2543 | MulticlassF1Score=0.9679
+Batch-180: CrossEntropyLoss=2.2594 | MulticlassF1Score=0.9680
+Batch-195: CrossEntropyLoss=2.2548 | MulticlassF1Score=0.9680
+Batch-210: CrossEntropyLoss=2.2591 | MulticlassF1Score=0.9679
+Batch-225: CrossEntropyLoss=2.2578 | MulticlassF1Score=0.9676
+Batch-226: CrossEntropyLoss=2.2591 | MulticlassF1Score=0.9676
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2615 | MulticlassF1Score=0.9468
+Batch-30 : CrossEntropyLoss=2.2662 | MulticlassF1Score=0.9470
+Batch-45 : CrossEntropyLoss=2.2708 | MulticlassF1Score=0.9467
+Batch-60 : CrossEntropyLoss=2.2624 | MulticlassF1Score=0.9477
+Batch-63 : CrossEntropyLoss=2.2701 | MulticlassF1Score=0.9478
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2575 | Mean MulticlassF1Score = 0.9678
+Validation : Mean CrossEntropyLoss = 2.2639 | Mean MulticlassF1Score = 0.9470
+================================================================================
+
+EPOCH-42
+Training Step
+Batch-15 : CrossEntropyLoss=2.2594 | MulticlassF1Score=0.9646
+Batch-30 : CrossEntropyLoss=2.2597 | MulticlassF1Score=0.9669
+Batch-45 : CrossEntropyLoss=2.2594 | MulticlassF1Score=0.9671
+Batch-60 : CrossEntropyLoss=2.2553 | MulticlassF1Score=0.9674
+Batch-75 : CrossEntropyLoss=2.2538 | MulticlassF1Score=0.9669
+Batch-90 : CrossEntropyLoss=2.2604 | MulticlassF1Score=0.9671
+Batch-105: CrossEntropyLoss=2.2565 | MulticlassF1Score=0.9674
+Batch-120: CrossEntropyLoss=2.2598 | MulticlassF1Score=0.9674
+Batch-135: CrossEntropyLoss=2.2554 | MulticlassF1Score=0.9681
+Batch-150: CrossEntropyLoss=2.2610 | MulticlassF1Score=0.9679
+Batch-165: CrossEntropyLoss=2.2565 | MulticlassF1Score=0.9681
+Batch-180: CrossEntropyLoss=2.2537 | MulticlassF1Score=0.9678
+Batch-195: CrossEntropyLoss=2.2585 | MulticlassF1Score=0.9675
+Batch-210: CrossEntropyLoss=2.2546 | MulticlassF1Score=0.9678
+Batch-225: CrossEntropyLoss=2.2574 | MulticlassF1Score=0.9676
+Batch-226: CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9676
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2644 | MulticlassF1Score=0.9483
+Batch-30 : CrossEntropyLoss=2.2699 | MulticlassF1Score=0.9481
+Batch-45 : CrossEntropyLoss=2.2622 | MulticlassF1Score=0.9475
+Batch-60 : CrossEntropyLoss=2.2618 | MulticlassF1Score=0.9480
+Batch-63 : CrossEntropyLoss=2.2633 | MulticlassF1Score=0.9481
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2574 | Mean MulticlassF1Score = 0.9673
+Validation : Mean CrossEntropyLoss = 2.2638 | Mean MulticlassF1Score = 0.9489
+================================================================================
+
+EPOCH-43
+Training Step
+Batch-15 : CrossEntropyLoss=2.2539 | MulticlassF1Score=0.9682
+Batch-30 : CrossEntropyLoss=2.2587 | MulticlassF1Score=0.9674
+Batch-45 : CrossEntropyLoss=2.2595 | MulticlassF1Score=0.9686
+Batch-60 : CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9684
+Batch-75 : CrossEntropyLoss=2.2562 | MulticlassF1Score=0.9684
+Batch-90 : CrossEntropyLoss=2.2552 | MulticlassF1Score=0.9681
+Batch-105: CrossEntropyLoss=2.2563 | MulticlassF1Score=0.9681
+Batch-120: CrossEntropyLoss=2.2603 | MulticlassF1Score=0.9680
+Batch-135: CrossEntropyLoss=2.2536 | MulticlassF1Score=0.9678
+Batch-150: CrossEntropyLoss=2.2538 | MulticlassF1Score=0.9678
+Batch-165: CrossEntropyLoss=2.2591 | MulticlassF1Score=0.9681
+Batch-180: CrossEntropyLoss=2.2605 | MulticlassF1Score=0.9680
+Batch-195: CrossEntropyLoss=2.2608 | MulticlassF1Score=0.9680
+Batch-210: CrossEntropyLoss=2.2538 | MulticlassF1Score=0.9679
+Batch-225: CrossEntropyLoss=2.2593 | MulticlassF1Score=0.9677
+Batch-226: CrossEntropyLoss=2.2575 | MulticlassF1Score=0.9677
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2616 | MulticlassF1Score=0.9468
+Batch-30 : CrossEntropyLoss=2.2632 | MulticlassF1Score=0.9467
+Batch-45 : CrossEntropyLoss=2.2614 | MulticlassF1Score=0.9476
+Batch-60 : CrossEntropyLoss=2.2669 | MulticlassF1Score=0.9477
+Batch-63 : CrossEntropyLoss=2.2651 | MulticlassF1Score=0.9473
+
+Huft 😥! Model not improved.
+
+Training   : Mean CrossEntropyLoss = 2.2575 | Mean MulticlassF1Score = 0.9679
+Validation : Mean CrossEntropyLoss = 2.2639 | Mean MulticlassF1Score = 0.9478
+Patience = 4/50❗
+================================================================================
+
+EPOCH-44
+Training Step
+Batch-15 : CrossEntropyLoss=2.2539 | MulticlassF1Score=0.9678
+Batch-30 : CrossEntropyLoss=2.2575 | MulticlassF1Score=0.9660
+Batch-45 : CrossEntropyLoss=2.2589 | MulticlassF1Score=0.9669
+Batch-60 : CrossEntropyLoss=2.2603 | MulticlassF1Score=0.9669
+Batch-75 : CrossEntropyLoss=2.2562 | MulticlassF1Score=0.9672
+Batch-90 : CrossEntropyLoss=2.2593 | MulticlassF1Score=0.9677
+Batch-105: CrossEntropyLoss=2.2630 | MulticlassF1Score=0.9676
+Batch-120: CrossEntropyLoss=2.2591 | MulticlassF1Score=0.9675
+Batch-135: CrossEntropyLoss=2.2561 | MulticlassF1Score=0.9676
+Batch-150: CrossEntropyLoss=2.2572 | MulticlassF1Score=0.9677
+Batch-165: CrossEntropyLoss=2.2581 | MulticlassF1Score=0.9677
+Batch-180: CrossEntropyLoss=2.2597 | MulticlassF1Score=0.9676
+Batch-195: CrossEntropyLoss=2.2565 | MulticlassF1Score=0.9675
+Batch-210: CrossEntropyLoss=2.2572 | MulticlassF1Score=0.9678
+Batch-225: CrossEntropyLoss=2.2521 | MulticlassF1Score=0.9677
+Batch-226: CrossEntropyLoss=2.2580 | MulticlassF1Score=0.9677
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2665 | MulticlassF1Score=0.9461
+Batch-30 : CrossEntropyLoss=2.2631 | MulticlassF1Score=0.9471
+Batch-45 : CrossEntropyLoss=2.2580 | MulticlassF1Score=0.9477
+Batch-60 : CrossEntropyLoss=2.2666 | MulticlassF1Score=0.9480
+Batch-63 : CrossEntropyLoss=2.2619 | MulticlassF1Score=0.9477
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2574 | Mean MulticlassF1Score = 0.9672
+Validation : Mean CrossEntropyLoss = 2.2638 | Mean MulticlassF1Score = 0.9467
+================================================================================
+
+EPOCH-45
+Training Step
+Batch-15 : CrossEntropyLoss=2.2580 | MulticlassF1Score=0.9650
+Batch-30 : CrossEntropyLoss=2.2520 | MulticlassF1Score=0.9665
+Batch-45 : CrossEntropyLoss=2.2553 | MulticlassF1Score=0.9672
+Batch-60 : CrossEntropyLoss=2.2552 | MulticlassF1Score=0.9681
+Batch-75 : CrossEntropyLoss=2.2564 | MulticlassF1Score=0.9673
+Batch-90 : CrossEntropyLoss=2.2604 | MulticlassF1Score=0.9673
+Batch-105: CrossEntropyLoss=2.2591 | MulticlassF1Score=0.9678
+Batch-120: CrossEntropyLoss=2.2581 | MulticlassF1Score=0.9682
+Batch-135: CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9676
+Batch-150: CrossEntropyLoss=2.2558 | MulticlassF1Score=0.9678
+Batch-165: CrossEntropyLoss=2.2546 | MulticlassF1Score=0.9678
+Batch-180: CrossEntropyLoss=2.2571 | MulticlassF1Score=0.9680
+Batch-195: CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9680
+Batch-210: CrossEntropyLoss=2.2553 | MulticlassF1Score=0.9680
+Batch-225: CrossEntropyLoss=2.2573 | MulticlassF1Score=0.9680
+Batch-226: CrossEntropyLoss=2.2560 | MulticlassF1Score=0.9680
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2638 | MulticlassF1Score=0.9470
+Batch-30 : CrossEntropyLoss=2.2598 | MulticlassF1Score=0.9485
+Batch-45 : CrossEntropyLoss=2.2639 | MulticlassF1Score=0.9486
+Batch-60 : CrossEntropyLoss=2.2619 | MulticlassF1Score=0.9485
+Batch-63 : CrossEntropyLoss=2.2689 | MulticlassF1Score=0.9480
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2573 | Mean MulticlassF1Score = 0.9673
+Validation : Mean CrossEntropyLoss = 2.2638 | Mean MulticlassF1Score = 0.9486
+================================================================================
+
+EPOCH-46
+Training Step
+Batch-15 : CrossEntropyLoss=2.2508 | MulticlassF1Score=0.9741
+Batch-30 : CrossEntropyLoss=2.2547 | MulticlassF1Score=0.9715
+Batch-45 : CrossEntropyLoss=2.2537 | MulticlassF1Score=0.9710
+Batch-60 : CrossEntropyLoss=2.2552 | MulticlassF1Score=0.9702
+Batch-75 : CrossEntropyLoss=2.2554 | MulticlassF1Score=0.9699
+Batch-90 : CrossEntropyLoss=2.2609 | MulticlassF1Score=0.9696
+Batch-105: CrossEntropyLoss=2.2591 | MulticlassF1Score=0.9694
+Batch-120: CrossEntropyLoss=2.2579 | MulticlassF1Score=0.9695
+Batch-135: CrossEntropyLoss=2.2546 | MulticlassF1Score=0.9695
+Batch-150: CrossEntropyLoss=2.2566 | MulticlassF1Score=0.9694
+Batch-165: CrossEntropyLoss=2.2542 | MulticlassF1Score=0.9690
+Batch-180: CrossEntropyLoss=2.2572 | MulticlassF1Score=0.9687
+Batch-195: CrossEntropyLoss=2.2568 | MulticlassF1Score=0.9685
+Batch-210: CrossEntropyLoss=2.2580 | MulticlassF1Score=0.9685
+Batch-225: CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9684
+Batch-226: CrossEntropyLoss=2.2589 | MulticlassF1Score=0.9684
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2610 | MulticlassF1Score=0.9497
+Batch-30 : CrossEntropyLoss=2.2646 | MulticlassF1Score=0.9481
+Batch-45 : CrossEntropyLoss=2.2638 | MulticlassF1Score=0.9476
+Batch-60 : CrossEntropyLoss=2.2633 | MulticlassF1Score=0.9476
+Batch-63 : CrossEntropyLoss=2.2663 | MulticlassF1Score=0.9475
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2572 | Mean MulticlassF1Score = 0.9699
+Validation : Mean CrossEntropyLoss = 2.2638 | Mean MulticlassF1Score = 0.9480
+================================================================================
+
+EPOCH-47
+Training Step
+Batch-15 : CrossEntropyLoss=2.2603 | MulticlassF1Score=0.9655
+Batch-30 : CrossEntropyLoss=2.2609 | MulticlassF1Score=0.9663
+Batch-45 : CrossEntropyLoss=2.2595 | MulticlassF1Score=0.9666
+Batch-60 : CrossEntropyLoss=2.2546 | MulticlassF1Score=0.9670
+Batch-75 : CrossEntropyLoss=2.2530 | MulticlassF1Score=0.9678
+Batch-90 : CrossEntropyLoss=2.2549 | MulticlassF1Score=0.9676
+Batch-105: CrossEntropyLoss=2.2600 | MulticlassF1Score=0.9678
+Batch-120: CrossEntropyLoss=2.2552 | MulticlassF1Score=0.9681
+Batch-135: CrossEntropyLoss=2.2546 | MulticlassF1Score=0.9682
+Batch-150: CrossEntropyLoss=2.2537 | MulticlassF1Score=0.9680
+Batch-165: CrossEntropyLoss=2.2559 | MulticlassF1Score=0.9678
+Batch-180: CrossEntropyLoss=2.2541 | MulticlassF1Score=0.9678
+Batch-195: CrossEntropyLoss=2.2548 | MulticlassF1Score=0.9681
+Batch-210: CrossEntropyLoss=2.2548 | MulticlassF1Score=0.9684
+Batch-225: CrossEntropyLoss=2.2578 | MulticlassF1Score=0.9682
+Batch-226: CrossEntropyLoss=2.2572 | MulticlassF1Score=0.9682
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2650 | MulticlassF1Score=0.9506
+Batch-30 : CrossEntropyLoss=2.2706 | MulticlassF1Score=0.9470
+Batch-45 : CrossEntropyLoss=2.2627 | MulticlassF1Score=0.9476
+Batch-60 : CrossEntropyLoss=2.2594 | MulticlassF1Score=0.9481
+Batch-63 : CrossEntropyLoss=2.2619 | MulticlassF1Score=0.9483
+
+Huft 😥! Model not improved.
+
+Training   : Mean CrossEntropyLoss = 2.2573 | Mean MulticlassF1Score = 0.9674
+Validation : Mean CrossEntropyLoss = 2.2635 | Mean MulticlassF1Score = 0.9486
+Patience = 5/50❗
+================================================================================
+
+EPOCH-48
+Training Step
+Batch-15 : CrossEntropyLoss=2.2605 | MulticlassF1Score=0.9671
+Batch-30 : CrossEntropyLoss=2.2547 | MulticlassF1Score=0.9685
+Batch-45 : CrossEntropyLoss=2.2539 | MulticlassF1Score=0.9692
+Batch-60 : CrossEntropyLoss=2.2558 | MulticlassF1Score=0.9693
+Batch-75 : CrossEntropyLoss=2.2555 | MulticlassF1Score=0.9696
+Batch-90 : CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9699
+Batch-105: CrossEntropyLoss=2.2569 | MulticlassF1Score=0.9695
+Batch-120: CrossEntropyLoss=2.2564 | MulticlassF1Score=0.9697
+Batch-135: CrossEntropyLoss=2.2540 | MulticlassF1Score=0.9695
+Batch-150: CrossEntropyLoss=2.2566 | MulticlassF1Score=0.9698
+Batch-165: CrossEntropyLoss=2.2613 | MulticlassF1Score=0.9700
+Batch-180: CrossEntropyLoss=2.2580 | MulticlassF1Score=0.9702
+Batch-195: CrossEntropyLoss=2.2567 | MulticlassF1Score=0.9700
+Batch-210: CrossEntropyLoss=2.2555 | MulticlassF1Score=0.9699
+Batch-225: CrossEntropyLoss=2.2545 | MulticlassF1Score=0.9699
+Batch-226: CrossEntropyLoss=2.2575 | MulticlassF1Score=0.9699
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2683 | MulticlassF1Score=0.9506
+Batch-30 : CrossEntropyLoss=2.2659 | MulticlassF1Score=0.9499
+Batch-45 : CrossEntropyLoss=2.2591 | MulticlassF1Score=0.9500
+Batch-60 : CrossEntropyLoss=2.2646 | MulticlassF1Score=0.9485
+Batch-63 : CrossEntropyLoss=2.2579 | MulticlassF1Score=0.9489
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2567 | Mean MulticlassF1Score = 0.9694
+Validation : Mean CrossEntropyLoss = 2.2634 | Mean MulticlassF1Score = 0.9500
+================================================================================
+
+EPOCH-49
+Training Step
+Batch-15 : CrossEntropyLoss=2.2560 | MulticlassF1Score=0.9725
+Batch-30 : CrossEntropyLoss=2.2564 | MulticlassF1Score=0.9724
+Batch-45 : CrossEntropyLoss=2.2544 | MulticlassF1Score=0.9713
+Batch-60 : CrossEntropyLoss=2.2520 | MulticlassF1Score=0.9712
+Batch-75 : CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9713
+Batch-90 : CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9712
+Batch-105: CrossEntropyLoss=2.2577 | MulticlassF1Score=0.9708
+Batch-120: CrossEntropyLoss=2.2576 | MulticlassF1Score=0.9705
+Batch-135: CrossEntropyLoss=2.2558 | MulticlassF1Score=0.9705
+Batch-150: CrossEntropyLoss=2.2580 | MulticlassF1Score=0.9703
+Batch-165: CrossEntropyLoss=2.2546 | MulticlassF1Score=0.9705
+Batch-180: CrossEntropyLoss=2.2537 | MulticlassF1Score=0.9705
+Batch-195: CrossEntropyLoss=2.2582 | MulticlassF1Score=0.9707
+Batch-210: CrossEntropyLoss=2.2590 | MulticlassF1Score=0.9706
+Batch-225: CrossEntropyLoss=2.2560 | MulticlassF1Score=0.9706
+Batch-226: CrossEntropyLoss=2.2556 | MulticlassF1Score=0.9706
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2599 | MulticlassF1Score=0.9498
+Batch-30 : CrossEntropyLoss=2.2666 | MulticlassF1Score=0.9485
+Batch-45 : CrossEntropyLoss=2.2640 | MulticlassF1Score=0.9491
+Batch-60 : CrossEntropyLoss=2.2596 | MulticlassF1Score=0.9493
+Batch-63 : CrossEntropyLoss=2.2595 | MulticlassF1Score=0.9490
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2565 | Mean MulticlassF1Score = 0.9711
+Validation : Mean CrossEntropyLoss = 2.2633 | Mean MulticlassF1Score = 0.9488
+================================================================================
+
+EPOCH-50
+Training Step
+Batch-15 : CrossEntropyLoss=2.2570 | MulticlassF1Score=0.9677
+Batch-30 : CrossEntropyLoss=2.2537 | MulticlassF1Score=0.9696
+Batch-45 : CrossEntropyLoss=2.2545 | MulticlassF1Score=0.9704
+Batch-60 : CrossEntropyLoss=2.2540 | MulticlassF1Score=0.9710
+Batch-75 : CrossEntropyLoss=2.2546 | MulticlassF1Score=0.9710
+Batch-90 : CrossEntropyLoss=2.2578 | MulticlassF1Score=0.9713
+Batch-105: CrossEntropyLoss=2.2546 | MulticlassF1Score=0.9710
+Batch-120: CrossEntropyLoss=2.2598 | MulticlassF1Score=0.9713
+Batch-135: CrossEntropyLoss=2.2570 | MulticlassF1Score=0.9713
+Batch-150: CrossEntropyLoss=2.2570 | MulticlassF1Score=0.9712
+Batch-165: CrossEntropyLoss=2.2567 | MulticlassF1Score=0.9710
+Batch-180: CrossEntropyLoss=2.2596 | MulticlassF1Score=0.9710
+Batch-195: CrossEntropyLoss=2.2553 | MulticlassF1Score=0.9711
+Batch-210: CrossEntropyLoss=2.2581 | MulticlassF1Score=0.9711
+Batch-225: CrossEntropyLoss=2.2564 | MulticlassF1Score=0.9711
+Batch-226: CrossEntropyLoss=2.2590 | MulticlassF1Score=0.9711
+
+Validation Step
+Batch-15 : CrossEntropyLoss=2.2641 | MulticlassF1Score=0.9494
+Batch-30 : CrossEntropyLoss=2.2606 | MulticlassF1Score=0.9513
+Batch-45 : CrossEntropyLoss=2.2639 | MulticlassF1Score=0.9501
+Batch-60 : CrossEntropyLoss=2.2653 | MulticlassF1Score=0.9493
+Batch-63 : CrossEntropyLoss=2.2640 | MulticlassF1Score=0.9494
+
+Yeah 🎉😄! Model improved.
+
+Training   : Mean CrossEntropyLoss = 2.2563 | Mean MulticlassF1Score = 0.9705
+Validation : Mean CrossEntropyLoss = 2.2632 | Mean MulticlassF1Score = 0.9504
+================================================================================
+
+
+TRAINING SUMMARY
+--------------------------------------------------------------------------------
+Best CrossEntropyLoss training    : 2.2563
+Best CrossEntropyLoss training    : 2.2632
+Best MulticlassF1Score validation : 0.9705
+Best MulticlassF1Score validation : 0.9504
+Training duration                 : 2.0070 minutes.
+Training date                     : 2022-10-19 14:42:45.406450+08:00
