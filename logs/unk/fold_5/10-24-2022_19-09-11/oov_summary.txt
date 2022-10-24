@@ -1,0 +1,18 @@
+Training
+Number OOV token            : 11806
+Correct prediction          : 10249
+Wrong prediction            : 1557
+Percentage correct oov pred : 86.81179061494156
+
+Validation
+Number OOV token            : 3366
+Correct prediction          : 2397
+Wrong prediction            : 969
+Percentage correct oov pred : 71.21212121212122
+
+Test
+Number OOV token            : 1390
+Correct prediction          : 975
+Wrong prediction            : 415
+Percentage correct oov pred : 70.14388489208633
+
